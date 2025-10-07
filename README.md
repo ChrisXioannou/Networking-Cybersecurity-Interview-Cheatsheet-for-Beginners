@@ -2,11 +2,11 @@
 
 1. learn osi really well
 2. linux ssh
-5. A little bit more basic network questions
-6. packet familiar
-7. accorsing to nist
-9. attack types
-10. interview code
+3. A little bit more basic network questions
+4. packet familiar
+5. accorsing to nist
+6. attack types
+7. interview code from chat gtp
 
 Operating systems:
 
