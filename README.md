@@ -1,8 +1,7 @@
 ## **TOP PRIORITIES**
 
 1. learn osi really well
-2. bash scripting
-3. watch dhcp
+2. linux ssh
 4. lead code
 5. ports, commands, acronyms,protocols
 6. packet familiar
