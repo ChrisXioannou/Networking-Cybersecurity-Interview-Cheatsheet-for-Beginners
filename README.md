@@ -130,3 +130,4 @@ Operating systems:
 7. accorsing to nist
 8. watch interview video
 9. attack types
+
