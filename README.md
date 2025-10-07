@@ -2,12 +2,13 @@
 
 1. learn osi really well
 2. linux ssh
+3. fix notes
 4. lead code
 5. ports, commands, acronyms,protocols
 6. packet familiar
 7. accorsing to nist
-8. watch interview video
 9. attack types
+10. interview code
 
 Operating systems:
 
