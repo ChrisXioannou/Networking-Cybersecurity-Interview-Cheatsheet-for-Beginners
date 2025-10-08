@@ -16,17 +16,15 @@ Operating systems:
    
 General networking:
 
-1. The dns chcp and nat services are provided by my rooter
-2. Dns can help but if not there then i can refer to everything by ip
-3. Nat takes place when it comes to helping the network go to the internet as one outside ip
+1. The DNC DHCP and NAT services are provided by my rooter
+2. DNS can help but if not there then i can refer to everything by ip
+3. NAT takes place when it comes to helping the network go to the internet as one outside ip
 4. Mask is basically a way to tell which part of the ip is important
+5. TCP is a 3 way hanshake (sending responding confirming)
+6. All people seem to need data processing (application, presentation, session, transfer, network, data-link, physical)
+7. UDP is not as reliable as TCP but faster
+8. HTTP lives on top of tcp, it sends the data using the connection tcp made, HTTP handles what the dada mean
+9. TLS is in between the HTTP and TCP, primary role is to encrypt the data
+10. ARP is translating mac to ip while DNS is ip to name
+11. vlan is groups of devices connected
 
-note one or another
-tcp (3 way handshake) 
-udp what to send sends it and receives it
-http lives on top of tcp, it gets used every time 
-you can call an ip and the port that lives in it
-layers go like http on top, ssl or tls in the middle and tcp on bottom
-arp is for translating mac to ip and dns is ip to name
-arp is layer 2.5 protocol
-vlan is groups of devices connected
