@@ -36,3 +36,12 @@ Ethernet: data-link layer 2. Layer 2 is where the connection from mac to mac hap
 SSH: application layer 7, again runs on top of tcp so it cant be lower 
 ICMP: network layer 3, it's used for pings that help network diagnosis
 FTP: Application layer 7, needs tcp to function
+
+
+According to nist:
+Detect: Spot unusual or malicious activity.
+Analyze: Confirm and understand the threat.
+Contain: Isolate affected systems.
+Eradicate: Remove the threat completely.
+Recover: Restore normal operations safely.
+Learn & Improve: Review and strengthen defenses.
