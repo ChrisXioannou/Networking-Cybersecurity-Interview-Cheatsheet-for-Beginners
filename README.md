@@ -4,7 +4,6 @@
 3. A little bit more basic network questions
 4. general recap
 5. accorsing to nist
-8. ports
    
 
 Operating systems:
