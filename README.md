@@ -7,6 +7,7 @@
 5. accorsing to nist
 6. attack types
 7. interview code from chat gtp
+8. ports
 
 Operating systems:
 
