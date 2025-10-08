@@ -4,7 +4,6 @@
 2. linux ssh
 3. A little bit more basic network questions
 5. accorsing to nist
-6. attack types
 7. interview code from chat gtp
 8. ports
 9. ctfs
