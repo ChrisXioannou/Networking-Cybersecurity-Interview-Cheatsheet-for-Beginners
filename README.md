@@ -1,6 +1,5 @@
 ## **TOP PRIORITIES**
 
-1. learn osi really well
 2. linux ssh
 3. A little bit more basic network questions
 4. general recap
@@ -27,6 +26,7 @@ General networking:
 9. TLS is in between the HTTP and TCP, primary role is to encrypt the data
 10. ARP is translating mac to ip while DNS is ip to name
 11. vlan is groups of devices connected
+12. TLS is what differentiates http from https 
 
 OSI PROTOCOLS:
 
