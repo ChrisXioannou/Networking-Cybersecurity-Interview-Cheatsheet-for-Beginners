@@ -30,8 +30,10 @@ General networking:
 
 OSI PROTOCOLS:
 
-HTTP: application layer 7, it give meaning to data, how to appear
-DNS: application layer 7, evern though it does handle ips its actually layer 7 on top of tcp
+HTTP: application layer 7, it gives meaning to data, how to appear
+DNS: application layer 7, even though it does handle ips its actually layer 7 on top of tcp
 Ip: network Layer 3, of course its network layer its the adress of each device. 
 Ethernet: data-link layer 2. Layer 2 is where the connection from mac to mac happens, its there.
-SSH: application layer 7, again runs on top of tcp so it cant be lower
+SSH: application layer 7, again runs on top of tcp so it cant be lower 
+ICMP: network layer 3, it's used for pings that help network diagnosis
+FTP: Application layer 7, needs tcp to function
