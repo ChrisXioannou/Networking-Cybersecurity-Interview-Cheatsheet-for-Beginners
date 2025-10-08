@@ -28,3 +28,10 @@ General networking:
 10. ARP is translating mac to ip while DNS is ip to name
 11. vlan is groups of devices connected
 
+OSI PROTOCOLS:
+
+HTTP: application layer 7, it give meaning to data, how to appear
+DNS: application layer 7, evern though it does handle ips its actually layer 7 on top of tcp
+Ip: network Layer 3, of course its network layer its the adress of each device. 
+Ethernet: data-link layer 2. Layer 2 is where the connection from mac to mac happens, its there.
+SSH: application layer 7, again runs on top of tcp so it cant be lower
