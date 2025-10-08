@@ -4,7 +4,6 @@
 2. linux ssh
 3. A little bit more basic network questions
 5. accorsing to nist
-7. interview code from chat gtp
 8. ports
 
 Operating systems:
