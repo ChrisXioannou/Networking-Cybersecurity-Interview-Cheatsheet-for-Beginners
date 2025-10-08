@@ -3,8 +3,10 @@
 1. learn osi really well
 2. linux ssh
 3. A little bit more basic network questions
+4. general recap
 5. accorsing to nist
 8. ports
+   
 
 Operating systems:
 
