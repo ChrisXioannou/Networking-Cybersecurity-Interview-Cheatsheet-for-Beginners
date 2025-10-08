@@ -19,3 +19,12 @@ General networking:
 3. Nat takes place when it comes to helping the network go to the internet as one outside ip
 4. Mask is basically a way to tell which part of the ip is important
 
+note one or another
+tcp (3 way handshake) 
+udp what to send sends it and receives it
+http lives on top of tcp, it gets used every time 
+you can call an ip and the port that lives in it
+layers go like http on top, ssl or tls in the middle and tcp on bottom
+arp is for translating mac to ip and dns is ip to name
+arp is layer 2.5 protocol
+vlan is groups of devices connected
