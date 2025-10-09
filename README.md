@@ -26,6 +26,7 @@ General networking:
 13. In order for the device to find its first ip it sends a broadcast for the dhcp to reply with an ip
 14. Bridged lan gives an ip to the device in the network belonging to same lan as the network
 15. Ras is the communication protocol that makes vpns work
+16. DHCP gives the DNS server so the DNS doesn't need to broadcast
 
 OSI PROTOCOLS:
 
