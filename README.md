@@ -46,3 +46,14 @@ Contain: Isolate affected systems.
 Eradicate: Remove the threat completely.
 Recover: Restore normal operations safely.
 Learn & Improve: Review and strengthen defenses.
+
+Scenario:
+When I enter goolge.com for the first time
+1. DNS resolution, device is asking for googles ip adress in order to reach it
+2. With that ip now i can set tcp, a 3 way handshake between the device and google
+3. Since we are in https TLS takes place to secure and encrypt data
+4. http request now to see the page google got
+5. Server processing to load anything it needs
+6. Google will send back the nessesary things
+7. Rendering the data to display it
+8. Cashing what ever is allowed for faster time
