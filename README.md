@@ -37,6 +37,7 @@ Ethernet: data-link layer 2. Layer 2 is where the connection from mac to mac hap
 SSH: application layer 7, again runs on top of tcp so it cant be lower 
 ICMP: network layer 3, it's used for pings that help network diagnosis
 FTP: Application layer 7, needs tcp to function
+TLS: Presentation layer 6, between the http and tcp to encrypt-decrypt
 
 
 According to nist:
