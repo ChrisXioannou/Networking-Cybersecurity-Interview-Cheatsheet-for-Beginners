@@ -1,9 +1,7 @@
 ## **TOP PRIORITIES**
 
-2. linux ssh
-3. A little bit more basic network questions
 4. general recap
-5 see my lab
+
 
 Operating systems:
 
