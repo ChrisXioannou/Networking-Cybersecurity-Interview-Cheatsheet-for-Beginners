@@ -25,6 +25,8 @@ General networking:
 10. ARP is translating mac to ip while DNS is ip to name
 11. vlan is groups of devices connected
 12. TLS is what differentiates http from https 
+13. In order for the device to find its first ip it sends a broadcast for the dhcp to reply with an ip
+
 
 OSI PROTOCOLS:
 
