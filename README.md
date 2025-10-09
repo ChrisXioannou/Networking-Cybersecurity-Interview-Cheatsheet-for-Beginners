@@ -3,7 +3,7 @@
 2. linux ssh
 3. A little bit more basic network questions
 4. general recap
-   
+5 see my lab
 
 Operating systems:
 
@@ -26,7 +26,7 @@ General networking:
 11. vlan is groups of devices connected
 12. TLS is what differentiates http from https 
 13. In order for the device to find its first ip it sends a broadcast for the dhcp to reply with an ip
-
+14. Bridged lan gives an ip to the device in the network belonging to same lan as the network
 
 OSI PROTOCOLS:
 
@@ -57,3 +57,9 @@ When I enter goolge.com for the first time
 6. Google will send back the nessesary things
 7. Rendering the data to display it
 8. Cashing what ever is allowed for faster time
+
+Questions:
+1) hashing VS encryption
+Hashing: It's only to prove integrity of a file, changes with every detail changed
+Encryption: only people with a key can read a message
+
