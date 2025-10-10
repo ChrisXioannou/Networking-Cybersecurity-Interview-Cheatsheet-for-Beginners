@@ -1,11 +1,11 @@
-# networking-cybersecurity-interview-cheatsheet
+# networking-cybersecurity-interview-cheatsheet-for beginers
 [![Update](https://img.shields.io/badge/status-active-success.svg)]()
 [![Stars](https://img.shields.io/github/stars/yourname/interview-cheatsheet.svg?style=social)]()
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)]()
 
 ## Introduction
-**You don’t need to master everything — you just need to understand the basic fundamentals.**  
-That’s the real key to interviews in both network  and cybersecurity related roles, two broad and ever-evolving fields
+**You don’t need to master everything — you just need to understand the basic fundumentals.**  
+That’s the real key to interviews in both network related or cybersecurity roles that are very broad niches.
 
 As wise Einstein once said: **If you can't explain it simply, you don't understand it well enough**
 
@@ -19,15 +19,64 @@ This guide collects:
 
 Use it to review, refresh, or prepare — fast/effective.
 
+
 ## Contents
 
-- [Core Networking](#core-networking)
+- [Logs](#core-networking)
 - [Security Fundamentals](#security-fundamentals)
 - [Tools & Commands](#tools--commands)
 - [Scenarios](#scenarios)
 - [Study Plan](#study-plan)
 
 
+## Logs
+
+Logs are one of the most important topics in cybersecurity and networking.  
+Whether you’re **troubleshooting a problem**, **investigating a threat**, or simply trying to **understand how something works** — logs are your best friend.
+
+### What is a log?
+A **log** is a recorded event — a timestamped message that describes something that happened on a system or network.  
+Every device, service, and application generates logs: user logins, failed authentications, system errors, connections made, packets dropped, and so on.
+
+They help answer questions like:
+- Who did what, and when?  
+- What failed or succeeded?  
+- Is there something unusual happening?
+
+**Example of a log entry:**
+
+Oct 10 09:42:15 webserver sshd[1532]: Failed password for root from 192.168.1.45 port 51812 ssh2
+
+## How to View Logs
+
+There are many systems and tools that collect or manage logs
+But in interviews, you usually won’t be asked to explain those in depth.  
+
+A **very common question** is simply:
+> “How do you view logs in Linux or Windows?”
+
+This is a core question every candidate should be able to answer confidently — and it’s easy to practice yourself.
+
+###  Windows
+The built-in tool for viewing logs is **Event Viewer**, you can open it by simply searching for it from the Windows taskbar.
+It lets you review **System**, **Security**, and **Application** logs in a structured way.
+
+
+💡 Tip: You can filter logs by time, level (error/warning/info), or event ID.
+
+
+### 🐧 Linux
+Linux systems log events to files under `/var/log/` or through **systemd’s journal**.
+
+The most common way to view logs on modern systems is with the **`journalctl`** command:
+
+# View recent logs
+journalctl -xe
+
+
+##left here
+
+- 
 Operating systems:
 
 1. i learned journalctl for logs, and how to use it to specifically check for certain logs, certain times as well
@@ -107,12 +156,7 @@ A device is different from a user. When you try to register a new device to the 
 [![Stars](https://img.shields.io/github/stars/yourname/interview-cheatsheet.svg?style=social)]()
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)]()
 
-## Contents
-- [Core Networking](#core-networking)
-- [Security Fundamentals](#security-fundamentals)
-- [Tools & Commands](#tools--commands)
-- [Scenarios](#scenarios)
-- [Study Plan](#study-plan)
+
 
 <details><summary><b>TCP vs UDP (cheat table)</b></summary>
 
