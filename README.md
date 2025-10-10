@@ -1,8 +1,5 @@
 ## **TOP PRIORITIES**
 
-4. general recap
-
-
 Operating systems:
 
 1. i learned journalctl for logs, and how to use it to specifically check for certain logs, certain times as well
@@ -63,4 +60,12 @@ Questions:
 1) hashing VS encryption
 Hashing: It's only to prove integrity of a file, changes with every detail changed
 Encryption: only people with a key can read a message
+
+Got asked:
+udp-tcp
+type of attacks
+docker-linux commands
+ports
+vlan
+
 
