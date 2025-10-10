@@ -67,5 +67,6 @@ type of attacks
 docker-linux commands
 ports
 vlan
+where to see logs
 
 
