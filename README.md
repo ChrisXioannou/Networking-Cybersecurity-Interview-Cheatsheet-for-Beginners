@@ -73,3 +73,69 @@ Computers over a network:
 A device is different from a user. When you try to register a new device to the domain, you need to firstly create another user (the starting boot user) and then join the device to the domain. By doing that you can actually sign out and of course with the pre created user in domain controller-active directory you will be able to sign and also see the device as an object in active directory you can also add in a group of you linking. Pinging is a device related thing. You can always ping a device in the network but the user may not be accepted. 
 
 
+
+
+# Cybersecurity & Networking Interview Cheat Sheet
+[![Update](https://img.shields.io/badge/status-active-success.svg)]()
+[![Stars](https://img.shields.io/github/stars/yourname/interview-cheatsheet.svg?style=social)]()
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)]()
+
+## Contents
+- [Core Networking](#core-networking)
+- [Security Fundamentals](#security-fundamentals)
+- [Tools & Commands](#tools--commands)
+- [Scenarios](#scenarios)
+- [Study Plan](#study-plan)
+
+<details><summary><b>TCP vs UDP (cheat table)</b></summary>
+
+| Feature | TCP | UDP |
+|---|---|---|
+| Connection | Yes | No |
+| Reliability | High | Best-effort |
+| Use cases | HTTP/S, SSH | DNS, VoIP |
+
+</details>
+
+> **Tip:** Memorize the 5-tuple (src/dst IP, src/dst port, protocol) for packet filters.
+
+
+# Cybersecurity & Networking Interview Cheat Sheet
+
+Short one-liner about who this is for (SOC, NetEng, SecEng, blue team) and how to use it in the last week before interviews.
+
+[![Status](https://img.shields.io/badge/status-active-success.svg)]()
+[![License](https://img.shields.io/badge/license-MIT-informational.svg)]()
+
+## Contents
+- [Core Networking](#core-networking)
+- [Security Fundamentals](#security-fundamentals)
+- [Protocols & Ports](#protocols--ports)
+- [Tools & Commands](#tools--commands)
+- [Linux/CLI Essentials](#linuxcli-essentials)
+- [Cloud & Zero Trust Basics](#cloud--zero-trust-basics)
+- [Common Interview Q&A](#common-interview-qa)
+- [Scenarios & Troubleshooting](#scenarios--troubleshooting)
+- [Study Plan (7 Days)](#study-plan-7-days)
+- [References](#references)
+
+## Core Networking
+- **OSI vs TCP/IP**: quick contrast table + when each is used.
+- **Routing & Switching**: ARP, STP, VLANs, NAT, subnetting mini-table.
+
+## Security Fundamentals
+- **CIA triad / AAA**, threat vs vuln vs risk, risk mgmt (likelihood × impact).
+- **AuthN vs AuthZ**, least privilege, segmentation/microseg.
+
+## Protocols & Ports
+| Service | Port | Notes |
+|---|---:|---|
+| DNS | 53/UDP,TCP | recursion, zone transfer |
+| HTTP/S | 80/443 | HTTP/2 basics, TLS handshake bullets |
+| SSH | 22 | key auth, agent fwd risks |
+
+## Tools & Commands
+### nmap
+```bash
+nmap -sC -sV -oA baseline <target>
+
