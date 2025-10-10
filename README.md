@@ -1,4 +1,32 @@
-## **TOP PRIORITIES**
+# networking-cybersecurity-interview-cheatsheet
+[![Update](https://img.shields.io/badge/status-active-success.svg)]()
+[![Stars](https://img.shields.io/github/stars/yourname/interview-cheatsheet.svg?style=social)]()
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)]()
+
+## Introduction
+**You don’t need to master everything — you just need to understand the basic fundumentals.**  
+That’s the real key to interviews in both network related or cybersecurity roles that are very broad niches.
+
+As wise Einstein once said: **If you can't explain it simply, you don't understand it well enough**
+
+Specialization will come with your company training and experience.  
+Right now, your goal is to show that you *get the bigger picture.*
+
+This guide collects:
+- Essential networking and cybersecurity concepts  
+- Simple tricks and mental models to remember them  
+- Real interview questions I’ve been asked throughout my journey  
+
+Use it to review, refresh, or prepare — fast/effective.
+
+## Contents
+
+- [Core Networking](#core-networking)
+- [Security Fundamentals](#security-fundamentals)
+- [Tools & Commands](#tools--commands)
+- [Scenarios](#scenarios)
+- [Study Plan](#study-plan)
+
 
 Operating systems:
 
@@ -44,7 +72,6 @@ Contain: Isolate affected systems.
 Eradicate: Remove the threat completely.
 Recover: Restore normal operations safely.
 Learn & Improve: Review and strengthen defenses.
-
 Scenario:
 When I enter goolge.com for the first time
 1. DNS resolution, device is asking for googles ip adress in order to reach it
@@ -136,6 +163,11 @@ Short one-liner about who this is for (SOC, NetEng, SecEng, blue team) and how t
 
 ## Tools & Commands
 ### nmap
-```bash
-nmap -sC -sV -oA baseline <target>
+
+
+QUIZ: https://quizlet.com/231268221/general-information-security-questions-flash-cards/
+SANS Cheat Sheets: https://www.sans.org/blog/the-ultimate-list-of-sans-cheat-sheets/
+Offensive Security (OSCP): https://411hall.github.io/OSCP-Preparation/
+https://medium.com/@falconspy/oscp-exam-attempt-1-1893df5a0a00
+VulnHub - LABS: https://www.vulnhub.com/
 
