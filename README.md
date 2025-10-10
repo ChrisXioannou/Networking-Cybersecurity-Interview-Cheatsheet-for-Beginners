@@ -4,8 +4,8 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)]()
 
 ## Introduction
-**You don’t need to master everything — you just need to understand the basic fundumentals.**  
-That’s the real key to interviews in both network related or cybersecurity roles that are very broad niches.
+**You don’t need to master everything — you just need to understand the basic fundamentals.**  
+That’s the real key to interviews in both network  and cybersecurity related roles, two broad and ever-evolving fields
 
 As wise Einstein once said: **If you can't explain it simply, you don't understand it well enough**
 
