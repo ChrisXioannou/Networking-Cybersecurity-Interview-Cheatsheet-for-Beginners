@@ -246,10 +246,78 @@ A **key question** can be:
 > “Write a Linux command to only allow the creator to read, write, and execute on this file.”
 
 
+## Networks
+
+We’ve mentioned networking several times already, but what exactly **is** networking — and how does it work?
+
+Networking is the process of connecting computers and devices so they can communicate and share data.  
+It relies on **protocols**, which act as the rules that define how information travels from one point to another.
+
+### Protocols
+
+A **protocol** is a predefined set of rules that determines how data is formatted, transmitted, and received across a network.  
+
+Without protocols, one device’s “language” would be completely different from another’s.  
+Protocols bring **order, structure, and compatibility** to digital communication.
+
+Imagine a game of football — the game itself is networking, but without the rules (protocols), players wouldn’t know how to pass, score, or even start the match.
+
+
+### Common Protocols and Concepts
+
+💡 The only prerequisite to understanding these is knowing what an **IP address** and a **MAC address** are.
+
+- **IP (Internet Protocol)**  
+  An IP address is a unique numerical label assigned to each device on a network.  
+  It identifies *where* a device is located so data can be sent to the correct destination — like a digital home address.
+
+- **MAC (Media Access Control) Address**  
+  A MAC address is a hardware identifier embedded in a device’s network interface card (NIC).  
+  While IP addresses can change, a MAC address is permanent and unique to each device.
+
+#### **DNS (Domain Name System)**
+DNS translates human-readable domain names (like `google.com`) into IP addresses (like `142.250.190.78`).  
+Without DNS, you would have to memorize IP addresses for every website you visit.
+
+#### **ARP (Address Resolution Protocol)**
+ARP is used to map an IP address to a physical MAC address on a local network.  
+In simple terms, it helps devices find each other within the same network.
+
+#### **DHCP (Dynamic Host Configuration Protocol)**
+When you connect to a network, DHCP automatically assigns your device an IP address and provides other network details (like the DNS server and default gateway).  
+It eliminates the need to manually configure each device.
+
+#### **NAT (Network Address Translation)**
+NAT allows multiple devices on a private network to share one public IP address when accessing the internet.  
+It hides internal IPs and adds a layer of security by preventing direct access from outside.
+
+#### **UDP (User Datagram Protocol)**
+UDP sends data faster but without guaranteeing delivery.  
+It’s used for applications where speed matters more than reliability — like video streaming, online gaming, or voice calls.
+
+#### **TLS (Transport Layer Security)**
+TLS provides encryption and authentication between two systems.  
+It sits between HTTP and TCP, ensuring the data being sent is private and hasn’t been tampered with.
+
+#### **HTTP / HTTPS (Hypertext Transfer Protocol / Secure)**
+HTTP defines how web pages are transmitted between a client and a server.  
+HTTPS is simply HTTP running over TLS — meaning it’s encrypted and secure.
 
 
 
 
+### Summary Table
+
+| Concept | Full Name | Purpose |
+|----------|------------|----------|
+| **DNS** | Domain Name System | Converts domain names to IPs |
+| **ARP** | Address Resolution Protocol | Maps IP addresses to MAC addresses |
+| **DHCP** | Dynamic Host Configuration Protocol | Automatically assigns IPs to devices |
+| **NAT** | Network Address Translation | Allows many devices to share one public IP |
+| **UDP** | User Datagram Protocol | Fast, connectionless data transfer |
+| **TLS** | Transport Layer Security | Encrypts communication between systems |
+| **HTTP / HTTPS** | Hypertext Transfer Protocol (Secure) | Transfers web data (encrypted if HTTPS) |
+| **IP** | Internet Protocol | Handles add
 
 
 
@@ -258,10 +326,6 @@ A **key question** can be:
 
 MY NOTES: 
 
-Operating systems:
-
-2. learned the useradd and add user, how to add users basically and log files for them
-3. Root User has all access in linux
    
 General networking:
 
