@@ -108,7 +108,44 @@ A **another common question** can simply be:
 > “What's the difference between SIEM and IPS?”
 
 
+## Responding to Detected Threats
 
+When discussing tools that help us analyze logs and detect threats, a natural question arises:  
+**What should we do if we actually detect a threat?**
+
+**NIST (National Institute of Standards and Technology)**, a government agency that develops widely used frameworks and guidelines for cybersecurity has already answered that question with a general workflow that many companies follow.
+
+Employers love to hear this, because it shows you understand the structured approach behind incident response.  
+
+Even though the specific process may vary from one organization to another, these general principles apply everywhere.  
+I highly suggest you learn this exactly as it is.
+
+### According to NIST:
+
+1. **Detect** – Spot unusual or malicious activity.  
+2. **Analyze** – Confirm and understand the threat.  
+3. **Contain** – Isolate affected systems to prevent further damage.  
+4. **Eradicate** – Remove the threat completely.  
+5. **Recover** – Restore normal operations safely.  
+6. **Learn & Improve** – Review what happened and strengthen defenses for the future.
+
+
+### Think of it as a story
+
+To make it easier to remember, think of it like trying to deal with a bug flying around your house:
+
+- You first **spot it** (Detect).  
+- Then you **see what it is** — a harmless butterfly or a mosquito? (Analyze).  
+- “Oh no, I just got bit!”  
+- You **close the door** so it doesn’t escape (Contain).  
+- You **kill it** (Eradicate).  
+- You **treat the bite** with some cold water or cream (Recover).  
+- And next time, you’ll be **faster and more prepared** (Learn & Improve).
+
+Each concept in networking and cybersecurity — and even in life — can be simplified with a story.  
+Don’t get lost in every technical detail!
+
+💡 **Reminder:** Interviewers want to see that you understand the *bigger picture*.
 
 
 
@@ -116,8 +153,7 @@ MY NOTES:
 
 Operating systems:
 
-1. i learned journalctl for logs, and how to use it to specifically check for certain logs, certain times as well
-2. learner the useradd and add user, how to add users basically and log files for them
+2. learned the useradd and add user, how to add users basically and log files for them
 3. Root User has all access in linux
    
 General networking:
@@ -158,6 +194,7 @@ Contain: Isolate affected systems.
 Eradicate: Remove the threat completely.
 Recover: Restore normal operations safely.
 Learn & Improve: Review and strengthen defenses.
+
 Scenario:
 When I enter goolge.com for the first time
 1. DNS resolution, device is asking for googles ip adress in order to reach it
