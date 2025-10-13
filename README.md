@@ -76,7 +76,8 @@ journalctl -xe
 
 ##left here
 
-- 
+MY NOTES: 
+
 Operating systems:
 
 1. i learned journalctl for logs, and how to use it to specifically check for certain logs, certain times as well
