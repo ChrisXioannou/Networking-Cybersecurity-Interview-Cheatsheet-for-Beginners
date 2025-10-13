@@ -291,9 +291,9 @@ HTTP defines how web pages are transmitted between a client and a server.
 HTTPS is simply HTTP running over TLS — meaning it’s encrypted and secure.
 
 
+### Protocol Summary Table
 
-
-### Summary Table
+💡You can answer almost any multiple-choice question about protocols just by looking at this summary table.
 
 | Concept | Full Name | Purpose |
 |----------|------------|----------|
@@ -305,6 +305,48 @@ HTTPS is simply HTTP running over TLS — meaning it’s encrypted and secure.
 | **TLS** | Transport Layer Security | Encrypts communication between systems |
 | **HTTP / HTTPS** | Hypertext Transfer Protocol (Secure) | Transfers web data (encrypted if HTTPS) |
 | **IP** | Internet Protocol | Handles add
+
+
+## Ports
+
+All this networking wouldn’t be possible without **ports**.  
+They are the specific entry and exit points through which data travels to and from applications on a device.
+
+Imagine a house without doors — how would you enter or receive visitors?  
+In the same way, without ports, computers wouldn’t know **where** to send or receive specific types of data.
+
+Each port can be configured based on system or application needs,  
+but some ports are **standardized** and recognized worldwide — these are known as **well-known ports**.
+
+As we mentioned each device on a network is identified by an **IP address**, which tells *where* the device is located.
+A single device can run many different services at once — web servers, email servers, remote access tools, and more.  
+So, how does the network know **which service** the data should go to?
+
+That’s where **ports** come in!
+
+- The **IP address** identifies the **device**.  
+- The **port number** identifies the **specific application or service** running on that device.
+
+### Port Summary Table
+
+| Port | Protocol | Service / Description |
+|------|-----------|------------------------|
+| **20 / 21** | FTP | File Transfer Protocol – transfer of files between systems |
+| **22** | SSH | Secure Shell – encrypted remote access and file transfer |
+| **25** | SMTP | Simple Mail Transfer Protocol – sending emails |
+| **53** | DNS | Domain Name System – resolves names to IPs |
+| **67 / 68** | DHCP | Dynamic Host Configuration Protocol – assigns IPs dynamically |
+| **80** | HTTP | Web traffic (unencrypted) |
+| **443** | HTTPS | Secure web traffic (HTTP over TLS/SSL) |
+| **514** | Syslog (UDP/TCP) | Collects and forwards system and network logs |
+| **3389** | RDP | Remote Desktop Protocol – remote graphical access to Windows systems |
+| **8080** | HTTP (alternate) | Alternative web traffic port often used by proxy servers |
+
+
+
+
+💡 Knowing these ports not only helps in interviews but also when analyzing traffic, troubleshooting connectivity, or identifying potential attacks during a network scan.
+
 
 
 ## Contents
