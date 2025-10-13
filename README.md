@@ -348,7 +348,7 @@ That’s where **ports** come in!
 💡 Knowing these ports not only helps in interviews but also when analyzing traffic, troubleshooting connectivity, or identifying potential attacks during a network scan.
 
 
-
+LEFT HERE, i should move to osi, remember to check notes i need images files so many things
 ## Contents
 
 - [Logs](#core-networking)
