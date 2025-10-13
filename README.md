@@ -91,8 +91,6 @@ In simple terms:
 - **Logs** record what happens.  
 - **SIEMs** connect and analyze those records to identify what matters.  
 
----
-
 Another important tool related to logs is an **IPS**.  
 If you understand how a SIEM works, you can easily grasp the concept of an IPS as well.
 
