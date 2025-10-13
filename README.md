@@ -3,21 +3,23 @@
 [![Stars](https://img.shields.io/github/stars/yourname/interview-cheatsheet.svg?style=social)]()
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)]()
 
-## Introduction
-**You don’t need to master everything — you just need to understand the basic fundumentals.**  
-That’s the real key to interviews in both network related or cybersecurity roles that are very broad niches.
+## 🧠 Introduction
 
-As wise Einstein once said: **If you can't explain it simply, you don't understand it well enough**
+**You don’t need to master everything — you just need to understand the fundamentals.**  
+That’s the real key to interviews in both networking and cybersecurity — two broad, fast-evolving fields.
 
-Specialization will come with your company training and experience.  
-Right now, your goal is to show that you *get the bigger picture.*
+As Einstein wisely said: *“If you can’t explain it simply, you don’t understand it well enough.”*
 
-This guide collects:
+Specialization will come with company training and hands-on experience.  
+Right now, your goal is to show that you *grasp the bigger picture.*
+
+**This guide collects:**
 - Essential networking and cybersecurity concepts  
 - Simple tricks and mental models to remember them  
 - Real interview questions I’ve been asked throughout my journey  
 
-Use it to review, refresh, or prepare — fast/effective.
+Use it to review, refresh, and prepare — **fast and effectively.**
+
 
 
 ## Contents
@@ -74,7 +76,43 @@ The most common way to view logs on modern systems is with the **`journalctl`** 
 journalctl -xe
 
 
-##left here
+### Log Management Concepts
+
+Many companies that offer cybersecurity services typically set up a **SIEM** tool.  
+If you understand how logs work, then you already understand the foundation of what a SIEM does.
+
+**SIEM (Security Information and Event Management):**  
+
+A SIEM collects, normalizes, and correlates logs from multiple sources (such as servers, firewalls,network devices).
+
+It analyzes those logs in real time to detect suspicious behavior, generate alerts, and provide dashboards.
+
+In simple terms:  
+- **Logs** record what happens.  
+- **SIEMs** connect and analyze those records to identify what matters.  
+
+---
+
+Another important tool related to logs is an **IPS**.  
+If you understand how a SIEM works, you can easily grasp the concept of an IPS as well.
+
+**IPS (Intrusion Prevention System):**  
+An IPS monitors network traffic for signs of malicious activity or policy violations.
+
+But Unlike a SIEM, it can take action! ( **block**, **reject**, or **quarantine** suspicious packets in real time). 
+
+
+In short:
+- **SIEM** — central brain analyzing logs from everywhere.  
+- **IPS** — guards the network in real time.  
+
+A **another common question** can simply be:
+> “What's the difference between SIEM and IPS?”
+
+
+
+
+
 
 MY NOTES: 
 
