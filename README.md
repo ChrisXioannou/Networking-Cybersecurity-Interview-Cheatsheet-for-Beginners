@@ -1,6 +1,6 @@
 # networking-cybersecurity-interview-cheatsheet-for beginers
 
-## 🧠 Introduction
+## Introduction
 
 **You don’t need to master everything — you just need to understand the fundamentals.**  
 That’s the real key to interviews in both networking and cybersecurity — two broad, fast-evolving fields.
