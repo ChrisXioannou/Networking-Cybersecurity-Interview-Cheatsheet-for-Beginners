@@ -148,6 +148,62 @@ Don’t get lost in every technical detail!
 💡 **Reminder:** Interviewers want to see that you understand the *bigger picture*.
 
 
+## Domain Controller and Active Directory
+
+Imagine working in a company with hundreds of employees.  
+How do you manage what everyone can access, what permissions they have, and which devices belong to whom?  
+That’s where **domains** and **Active Directory** come in.
+
+### What is a Domain?
+A **domain** is a networked environment where all users, computers, and resources (like printers or shared folders) are managed under a single set of rules and permissions.  
+It allows centralized control — meaning you can manage everything from one place instead of configuring each computer individually.
+
+
+### How Do You Manage a Domain?
+The most common way to manage a domain in Windows environments is through **Active Directory (AD)**, which runs on a **Domain Controller (DC)**.
+
+
+### What is Active Directory?
+**Active Directory** is a directory service developed by Microsoft.  
+It stores information about users, devices, and resources, and defines how they can interact with each other within the network.  
+Think of it as a company-wide database of identities and permissions.
+
+When someone logs in to a company computer, their credentials (username and password) are checked against the database inside Active Directory.  
+If they match, access is granted.  
+In most cases, the username is assigned by the administrator, while the user sets their password when they join the company.
+
+### What Are Groups in Active Directory?
+Groups are used to organize users and devices based on their roles or access needs.  
+Instead of assigning permissions to each user individually, permissions are assigned to a **group**, and users inherit those permissions automatically.
+
+For example:
+- A “CEO” group might have access to confidential company files.  
+- An “Interns” group might only access shared folders and basic tools.
+
+
+### Users and Devices in AD
+Each employee has both:
+- A **user account**, which represents their identity.  
+- A **device object**, which represents the computer they use.
+
+When you connect a new device to the domain, it appears as an **object** in Active Directory.  
+You then assign it to the correct group — for example, the CEO’s laptop goes to the “Executive Devices” group, while an intern’s workstation goes to the “Intern Computers” group.
+
+This way, both **users and their devices** are organized and controlled centrally.
+
+💡 Understanding how **Active Directory** and **Domain Controllers** work shows interviewers that you grasp one of the most essential parts of corporate network management.
+
+
+
+
+
+
+
+
+
+
+
+
 
 MY NOTES: 
 
