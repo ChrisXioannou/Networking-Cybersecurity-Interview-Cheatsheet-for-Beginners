@@ -152,6 +152,7 @@ A device is different from a user. When you try to register a new device to the 
 
 
 
+
 # Cybersecurity & Networking Interview Cheat Sheet
 [![Update](https://img.shields.io/badge/status-active-success.svg)]()
 [![Stars](https://img.shields.io/github/stars/yourname/interview-cheatsheet.svg?style=social)]()
