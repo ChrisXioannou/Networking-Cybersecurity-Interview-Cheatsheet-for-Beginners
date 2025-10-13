@@ -191,8 +191,59 @@ You then assign it to the correct group — for example, the CEO’s laptop goes
 
 This way, both **users and their devices** are organized and controlled centrally.
 
+A **typical question** can look like this: 
+> “What's the right group to add this user?”
+
 💡 Understanding how **Active Directory** and **Domain Controllers** work shows interviewers that you grasp one of the most essential parts of corporate network management.
 
+
+A## Actions and Permissions
+
+Previously, we mentioned how **groups** help us manage many users at once.  
+By adding users to a group, they automatically **inherit the policies and restrictions** assigned to that group.
+
+Now, what kind of actions or restrictions can we actually apply to users?  
+Let’s understand this through one of the most essential Linux commands: **`chmod`**.
+
+---
+
+### Understanding `chmod`
+
+The `chmod` command (short for *change mode*) is used to modify file and directory permissions in Linux.  
+It defines **who** can perform **what kind of actions** on a file.
+
+Every file in Linux has three sets of permissions, each represented by three letters:
+
+| Section | Who it applies to | Example |
+|----------|------------------|----------|
+| **u** (user) | The owner of the file | The person who created it |
+| **g** (group) | Users in the same group as the owner | Team members or department |
+| **o** (others) | Everyone else on the system | Any other user |
+
+Each of these can have three types of access:
+- **r** → Read (view the contents)  
+- **w** → Write (edit or delete the file)  
+- **x** → Execute (run the file if it’s a script or program)
+
+### Example: `chmod rwx-rw-r--`
+
+Let’s break it down:
+
+| Section | Who | Permissions | Meaning |
+|----------|------|--------------|----------|
+| `rwx` | User (owner) | Read, Write, Execute | Full control over the file |
+| `rw-` | Group | Read, Write | Can view and edit, but not execute |
+| `r--` | Others | Read only | Can view the file but not modify it |
+
+So in this example:
+- The **owner** can do everything.  
+- The **group** can read and modify.  
+- **Others** can only read.
+
+💡 The most important cybersecurity concept here is **limiting privileges** — never give more access than necessary.
+
+A **key question** can be:
+> “Write a Linux command to only allow the creator to read, write, and execute on this file.”
 
 
 
