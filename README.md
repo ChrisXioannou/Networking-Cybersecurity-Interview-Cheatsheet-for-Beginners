@@ -1,7 +1,4 @@
 # networking-cybersecurity-interview-cheatsheet-for beginers
-[![Update](https://img.shields.io/badge/status-active-success.svg)]()
-[![Stars](https://img.shields.io/github/stars/yourname/interview-cheatsheet.svg?style=social)]()
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)]()
 
 ## 🧠 Introduction
 
@@ -19,16 +16,6 @@ Right now, your goal is to show that you *grasp the bigger picture.*
 - Real interview questions I’ve been asked throughout my journey  
 
 Use it to review, refresh, and prepare — **fast and effectively.**
-
-
-
-## Contents
-
-- [Logs](#core-networking)
-- [Security Fundamentals](#security-fundamentals)
-- [Tools & Commands](#tools--commands)
-- [Scenarios](#scenarios)
-- [Study Plan](#study-plan)
 
 
 ## Logs
@@ -320,7 +307,13 @@ HTTPS is simply HTTP running over TLS — meaning it’s encrypted and secure.
 | **IP** | Internet Protocol | Handles add
 
 
+## Contents
 
+- [Logs](#core-networking)
+- [Security Fundamentals](#security-fundamentals)
+- [Tools & Commands](#tools--commands)
+- [Scenarios](#scenarios)
+- [Study Plan](#study-plan)
 
 
 
@@ -460,4 +453,6 @@ SANS Cheat Sheets: https://www.sans.org/blog/the-ultimate-list-of-sans-cheat-she
 Offensive Security (OSCP): https://411hall.github.io/OSCP-Preparation/
 https://medium.com/@falconspy/oscp-exam-attempt-1-1893df5a0a00
 VulnHub - LABS: https://www.vulnhub.com/
+
+⭐ Found this useful? Star it to support beginner-friendly cybersecurity education!
 
