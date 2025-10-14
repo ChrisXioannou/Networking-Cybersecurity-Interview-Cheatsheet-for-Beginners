@@ -358,10 +358,10 @@ D. 203.0.113.10
 
 ### 39. Which option correctly matches the CIA Triad with its goals?
 
-A. Confidentiality → Accuracy, Integrity → Privacy, Availability → Encryption
-B. Confidentiality → Access, Integrity → Uptime, Availability → Control
-**C. Confidentiality → Keep data secret, Integrity → Keep data accurate, Availability → Keep data accessible**✔️
-D. Confidentiality → Access, Integrity → Backup, Availability → Privacy
+A. Confidentiality → Accuracy, Integrity → Privacy, Availability → Encryption  
+B. Confidentiality → Access, Integrity → Uptime, Availability → Control  
+**C. Confidentiality → Keep data secret, Integrity → Keep data accurate, Availability → Keep data accessible**✔️  
+D. Confidentiality → Access, Integrity → Backup, Availability → Privacy  
 
 ---
 
