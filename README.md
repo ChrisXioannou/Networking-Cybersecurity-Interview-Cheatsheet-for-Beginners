@@ -342,13 +342,70 @@ That’s where **ports** come in!
 | **3389** | RDP | Remote Desktop Protocol – remote graphical access to Windows systems |
 | **8080** | HTTP (alternate) | Alternative web traffic port often used by proxy servers |
 
-
-
-
 💡 Knowing these ports not only helps in interviews but also when analyzing traffic, troubleshooting connectivity, or identifying potential attacks during a network scan.
 
+## OSI Model
 
-LEFT HERE, i should move to osi, remember to check notes i need images files so many things
+We’ve talked about many protocols, ports, and policies — and all of them need to work **the same way across different systems**.  
+That’s why the **OSI Model (Open Systems Interconnection)** was created:  
+to standardize how different devices and software communicate, regardless of who built them.
+
+So, the OSI model gives structure to your troubleshooting process — layer by layer.
+
+### The Seven Layers of the OSI Model
+
+| Layer | Name | Description | Example Protocols / Technologies |
+|-------|------|--------------|----------------------------------|
+| **7** | **Application** | Where users and applications interact with the network. | HTTP, HTTPS, DNS, FTP, SMTP |
+| **6** | **Presentation** | Translates, encrypts, and compresses data so applications can understand it. | TLS/SSL, JPEG, MP3 |
+| **5** | **Session** | Manages sessions (connections) between applications. | NetBIOS, RPC |
+| **4** | **Transport** | Provides reliable or fast data delivery using TCP or UDP. | TCP, UDP |
+| **3** | **Network** | Handles logical addressing and routing of packets. | IP, ICMP, ARP |
+| **2** | **Data Link** | Responsible for node-to-node data transfer and MAC addressing. | Ethernet, PPP, VLANs |
+| **1** | **Physical** | Deals with actual hardware transmission — cables, signals, and bits. | Ethernet cables, Fiber, Hubs |
+
+### Why It Matters
+
+It’s not only about making protocols compatible.  
+The OSI model also helps us **troubleshoot**.
+
+For example:
+- If your **encryption** works but data doesn’t reach the destination, you might have a problem in the **transport** or **network layer**.  
+- If your **application** won’t connect but the network is fine, the issue might be in the **application** or **presentation** layer.  
+
+### How to Remember the Layers
+
+A classic mnemonic (from Layer 7 → Layer 1):
+
+> **A**ll **P**eople **S**eem **T**o **N**eed **D**ata **P**rocessing
+
+or in reverse (Layer 1 → Layer 7):
+
+> **P**lease **D**o **N**ot **T**hrow **S**ausage **P**izza **A**way
+
+A useful way to remember where each protocol belongs is to **think logically rather than memorize**.
+
+Each protocol naturally fits into a layer based on what it does.
+
+For example:
+We previously said that **TCP** is responsible for creating the **connection** between two devices — so it must live **below** something like **HTTP**, which only works *after* a connection exists to send and receive data!  
+
+So how can HTTP (which presents and transfers information) exist without TCP first establishing that reliable path?  
+It can’t — that’s why HTTP is **above** TCP.
+
+And how can TCP even function without **IP**, which provides the logical addressing that tells it where to send data?  
+It can’t — so IP must be **below** TCP.
+
+Finally, how could IP work if there was no **Ethernet cable or Wi-Fi signal** to actually move the bits?  
+It couldn’t — that’s the **Physical Layer**.
+
+
+💡 **Remember:** Don’t memorize the OSI model — **understand the logic behind it.**  
+Every layer depends on the one below it to function.  
+Learning to think in layers is one of the most powerful skills in networking and cybersecurity.
+
+
+
 ## Contents
 
 - [Logs](#core-networking)
