@@ -236,7 +236,7 @@ With 2FA, users must provide **two forms of verification**:
 
 Even if someone steals your password, they still can’t log in without that second factor.
 
-💡 **Fact: 2FA has prevented millions of unauthorized logins and remains one of the simplest yet most effective security measures — and interviewers love to ask about it.
+💡 **Fact:** 2FA has prevented millions of unauthorized logins and remains one of the simplest yet most effective security measures — and interviewers love to ask about it.
 
 ### **Encryption**
 
@@ -356,7 +356,7 @@ This perfectly illustrates the difference:
 
 ### Protocol Summary Table
 
-💡You can answer almost any multiple-choice question about protocols just by looking at this summary table.
+💡 You can answer almost any multiple-choice question about protocols just by looking at this summary table.
 
 | Concept | Full Name | Purpose |
 |----------|------------|----------|
@@ -610,7 +610,7 @@ Let’s walk through a simple but powerful example.
 6. **Firewall & Policy Enforcement:** The company firewall applies its rules, allowing or denying certain internal services.  
 7. **Access Granted:** You can now safely access company files, internal websites, and remote desktops as if you were physically at the office.
 
-💡 **Every step here** uses a mix of what you’ve learned!!!
+💡 **Every step here** uses a mix of what you’ve learned!
 
 Scenarios like these help you **see the flow** — from how a connection begins to how it’s secured, processed, and delivered.  
 
