@@ -1,5 +1,24 @@
 # Networking & Cybersecurity Interview Cheatsheet for Beginner
 
+# Networking & Cybersecurity Interview Cheatsheet for Beginners
+
+### 📘 Quick Navigation
+[Introduction](#introduction) • 
+[Logs](#logs) • 
+[How to View Logs](#how-to-view-logs) • 
+[Responding to Detected Threats](#responding-to-detected-threats) • 
+[Domain Controller & Active Directory](#domain-controller-and-active-directory) • 
+[Actions & Permissions](#actions-and-permissions) • 
+[Safety](#safety) • 
+[Networks](#networks) • 
+[Ports](#ports) • 
+[Firewall](#firewall) • 
+[OSI Model](#osi-model) • 
+[Fundamental Protocols](#fundamental-protocols) • 
+[Hardware](#hardware) • 
+[Scenarios](#scenarios) • 
+[Final Notes](#final-notes-theory-that-completes-the-picture)
+
 ## Introduction
 
 **You don’t need to master everything — you just need to understand the fundamentals.**  
@@ -628,14 +647,6 @@ If you want to test yourself with **actual interview questions**, check out the 
 ⭐ **Found this useful?**  
 Star this repository to support **beginner-friendly cybersecurity education** and help more learners find it!
 
-
-## Contents
-
-- [Logs](#core-networking)
-- [Security Fundamentals](#security-fundamentals)
-- [Tools & Commands](#tools--commands)
-- [Scenarios](#scenarios)
-- [Study Plan](#study-plan)
 
 
 
