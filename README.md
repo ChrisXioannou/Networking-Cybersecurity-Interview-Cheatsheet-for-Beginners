@@ -245,19 +245,24 @@ A **key question** can be:
 
 ## Safety
 
+Cybersecurity isn’t just about tools and commands — it’s about protecting information.
+Every action you take, from setting file permissions to encrypting data, serves a purpose: to keep systems secure and reliable.
+
+At the core of this purpose lies a simple but powerful concept.
+
 ### **The CIA Triad**
 
 The CIA Triad represents the three fundamental goals of cybersecurity:
-Confidentiality, Integrity, and Availability.
+**Confidentiality, Integrity, and Availability.**
 Every security control, policy, or defense mechanism exists to protect at least one of these.
 
-Confidentiality → Keeping data secret from unauthorized access.
+**Confidentiality** → Keeping data secret from unauthorized access.
 Example: Encryption, access controls, and authentication ensure that only approved users can view sensitive information.
 
-Integrity → Making sure data remains accurate and unaltered.
+**Integrity** → Making sure data remains accurate and unaltered.
 Example: Hashing and digital signatures detect unauthorized modifications — if the data changes, the hash changes too.
 
-Availability → Ensuring systems and data are accessible when needed.
+**Availability** → Ensuring systems and data are accessible when needed.
 Example: Backups, redundant systems, and DDoS protection keep services running even during failures or attacks.
 
 💡 Think of it this way:
