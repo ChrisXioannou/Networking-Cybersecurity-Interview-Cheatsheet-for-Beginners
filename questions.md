@@ -20,7 +20,7 @@ D. UDP uses a three-way handshake before sending data
 What type of attack attempts to overwhelm a server by flooding it with traffic?
 
 A. Phishing  
-**B. DDoS (Distributed Denial of Service)**  
+**B. DDoS (Distributed Denial of Service)**✔️  
 C. SQL Injection  
 D. Brute-force  
 
@@ -30,7 +30,7 @@ D. Brute-force
 Which command is used to list all running Docker containers?
 
 A. docker ps -a  
-**B. docker ps**  
+**B. docker ps**✔️  
 C. docker images  
 D. docker start  
 
@@ -40,7 +40,7 @@ D. docker start
 Which Linux command is used to view system logs?
 
 A. cat /etc/passwd  
-**B. journalctl -xe**  
+**B. journalctl -xe**✔️  
 C. top  
 D. df -h  
 
@@ -51,7 +51,7 @@ Which port does HTTPS typically use?
 
 A. 21  
 B. 80  
-**C. 443**  
+**C. 443**✔️  
 D. 3389  
 
 ---
@@ -60,7 +60,7 @@ D. 3389
 What port is commonly used by DNS?
 
 A. 22  
-**B. 53**  
+**B. 53**✔️  
 C. 25  
 D. 8080  
 
@@ -70,7 +70,7 @@ D. 8080
 What is the primary purpose of a VLAN (Virtual Local Area Network)?
 
 A. To connect computers using Wi-Fi  
-**B. To logically segment a network without needing separate physical switches**  
+**B. To logically segment a network without needing separate physical switches**✔️  
 C. To provide encryption between devices  
 D. To control incoming and outgoing traffic like a firewall  
 
@@ -80,7 +80,7 @@ D. To control incoming and outgoing traffic like a firewall
 Which of the following best describes a firewall?
 
 A. A device that speeds up internet connections  
-**B. A security system that filters and controls network traffic**  
+**B. A security system that filters and controls network traffic**✔️  
 C. A protocol used for file transfers  
 D. A device used to assign IP addresses  
 
@@ -90,7 +90,7 @@ D. A device used to assign IP addresses
 Where would you typically find system logs in Linux?
 
 A. /home/logs/  
-**B. /var/log/**  
+**B. /var/log/**✔️  
 C. /root/logs/  
 D. /sys/logs/  
 
@@ -100,7 +100,7 @@ D. /sys/logs/
 
 A. Software updates  
 B. Only printed documents  
-**C. All forms of confidential or sensitive data from unauthorized access**  
+**C. All forms of confidential or sensitive data from unauthorized access**✔️  
 D. Network cables  
 
 ---
@@ -108,7 +108,7 @@ D. Network cables
 ### 11. Which of the following represents the core goals of information security?
 
 A. Access, Backup, Sharing  
-**B. Confidentiality, Integrity, Availability (CIA Triad)**  
+**B. Confidentiality, Integrity, Availability (CIA Triad)**✔️  
 C. Privacy, Logging, Response  
 D. Encryption, Storage, Access  
 
@@ -117,7 +117,7 @@ D. Encryption, Storage, Access
 ### 12. What does “non-repudiation” ensure in cybersecurity?
 
 A. Data remains hidden from attackers  
-**B. The sender cannot deny performing an action or sending data**  
+**B. The sender cannot deny performing an action or sending data**✔️  
 C. The receiver can alter the message if needed  
 D. The transmission remains anonymous  
 
@@ -126,7 +126,7 @@ D. The transmission remains anonymous
 ### 13. What is true about data availability in information security?
 
 A. Security prevents authorized access  
-**B. Security must ensure data is accessible to legitimate users while staying protected**  
+**B. Security must ensure data is accessible to legitimate users while staying protected**✔️  
 C. Availability means unprotected data  
 D. They are unrelated concepts  
 
@@ -136,7 +136,7 @@ D. They are unrelated concepts
 
 A. A log of network activities  
 B. A type of encryption algorithm  
-**C. A document defining rules for accessing and managing information systems**  
+**C. A document defining rules for accessing and managing information systems**✔️  
 D. A firewall configuration file  
 
 ---
@@ -144,7 +144,7 @@ D. A firewall configuration file
 ### 15. Which statement best describes the difference between logical and physical security?
 
 A. Logical security protects buildings; physical protects passwords  
-**B. Logical security manages digital access, while physical restricts physical entry**  
+**B. Logical security manages digital access, while physical restricts physical entry**✔️  
 C. Both secure only software  
 D. They perform the same role  
 
@@ -154,7 +154,7 @@ D. They perform the same role
 
 A. A level of risk that completely eliminates all threats  
 B. A level that is ignored by management  
-**C. A balanced level that allows business operation while minimizing danger**  
+**C. A balanced level that allows business operation while minimizing danger**✔️  
 D. Any risk rated as “low”  
 
 ---
@@ -163,7 +163,7 @@ D. Any risk rated as “low”
 
 A. Number of devices × data size  
 B. Threat count × system uptime  
-**C. Likelihood of occurrence × impact severity**  
+**C. Likelihood of occurrence × impact severity**✔️  
 D. Average download speed × time  
 
 ---
@@ -172,7 +172,7 @@ D. Average download speed × time
 
 A. Ignoring all low-level risks  
 B. Increasing cost for the same risk  
-**C. Balancing security investments against acceptable risk levels**  
+**C. Balancing security investments against acceptable risk levels**✔️  
 D. Replacing controls with new ones  
 
 ---
@@ -181,7 +181,7 @@ D. Replacing controls with new ones
 
 A. File backup  
 B. Network monitoring  
-**C. SQL Injection**  
+**C. SQL Injection**✔️  
 D. Disk formatting  
 
 ---
@@ -190,7 +190,7 @@ D. Disk formatting
 
 A. A threat is hardware; a vulnerability is software  
 B. They are identical concepts  
-**C. A threat exploits a vulnerability, which is a system weakness**  
+**C. A threat exploits a vulnerability, which is a system weakness**✔️  
 D. A vulnerability attacks a threat  
 
 ---
@@ -198,7 +198,7 @@ D. A vulnerability attacks a threat
 ### 21. Which is a common example of a vulnerability?
 
 A. Updated firewall  
-**B. Poor access control or weak encryption**  
+**B. Poor access control or weak encryption**✔️  
 C. Two-factor authentication  
 D. Network segmentation  
 
@@ -208,7 +208,7 @@ D. Network segmentation
 
 A. Agile  
 B. ITIL  
-**C. ISO/IEC 27002**  
+**C. ISO/IEC 27002**✔️  
 D. Waterfall  
 
 ---
@@ -217,7 +217,7 @@ D. Waterfall
 
 A. Testing  
 B. Deployment  
-**C. Design**  
+**C. Design**✔️  
 D. Maintenance  
 
 ---
@@ -225,7 +225,7 @@ D. Maintenance
 ### 24. What is the main purpose of a Security Operations Center (SOC)?
 
 A. To develop software applications  
-**B. To monitor, detect, and respond to cybersecurity incidents**  
+**B. To monitor, detect, and respond to cybersecurity incidents**✔️  
 C. To configure employee devices  
 D. To manage user passwords  
 
@@ -235,7 +235,7 @@ D. To manage user passwords
 
 A. Identify coding bugs in production  
 B. Manage employee logins  
-**C. Restore systems quickly after security or service disruptions**  
+**C. Restore systems quickly after security or service disruptions**✔️  
 D. Create software updates  
 
 ---
@@ -243,7 +243,7 @@ D. Create software updates
 ### 26. Why is DNS monitoring important for security?
 
 A. To boost network speed  
-**B. To detect malicious or suspicious domain activity**  
+**B. To detect malicious or suspicious domain activity**✔️  
 C. To manage user permissions  
 D. To store login credentials  
 
@@ -252,7 +252,7 @@ D. To store login credentials
 ### 27. What is a “security control”?
 
 A. A hardware component that stores logs  
-**B. A safeguard used to reduce or prevent risks**  
+**B. A safeguard used to reduce or prevent risks**✔️  
 C. A VPN connection setting  
 D. A monitoring dashboard  
 
@@ -262,7 +262,7 @@ D. A monitoring dashboard
 
 A. Logical  
 B. Physical  
-**C. Financial**  
+**C. Financial**✔️  
 D. Procedural  
 
 ---
@@ -270,7 +270,7 @@ D. Procedural
 ### 29. What is the focus of Information Security Governance?
 
 A. Conducting penetration tests  
-**B. Defining accountability and ensuring risk mitigation controls**  
+**B. Defining accountability and ensuring risk mitigation controls**✔️  
 C. Encrypting all data traffic  
 D. Writing access policies  
 
@@ -280,14 +280,14 @@ D. Writing access policies
 
 A. They work without supervision  
 B. They design company websites  
-**C. They have privileged access and must act responsibly and honestly**  
+**C. They have privileged access and must act responsibly and honestly**✔️  
 D. They manage employee payroll  
 
 ---
 ### 31. What does the “AAA” model in cybersecurity stand for?
 
 A. Access, Authentication, and Accounting
-**B. Authentication, Authorization, and Accounting**
+**B. Authentication, Authorization, and Accounting**✔️
 C. Authorization, Access, and Auditing
 D. Authentication, Access, and Analysis
 
@@ -296,7 +296,7 @@ D. Authentication, Access, and Analysis
 ### 32. Which statement best describes the main difference between hashing and encryption?
 
 A. Encryption is irreversible, while hashing can be reversed.
-**B. Hashing is one-way, while encryption is two-way using a key.**
+**B. Hashing is one-way, while encryption is two-way using a key.**✔️
 C. Both are used to make data unreadable but serve identical purposes.
 D. Hashing uses a private key, while encryption uses a public key.
 
@@ -306,7 +306,7 @@ D. Hashing uses a private key, while encryption uses a public key.
 
 A. UDP is more secure than TCP.
 B. DHCP doesn’t require reliability.
-**C. TCP requires an IP to connect, but DHCP’s job is to assign one.**
+**C. TCP requires an IP to connect, but DHCP’s job is to assign one.**✔️
 D. UDP is faster and always encrypted.
 
 ---
@@ -314,7 +314,7 @@ D. UDP is faster and always encrypted.
 ### 34. If you can ping an IP address but can’t open a website, which OSI layer is most likely the problem?
 
 A. Data Link (Layer 2)
-**B. Application (Layer 7)**
+**B. Application (Layer 7)**✔️
 C. Network (Layer 3)
 D. Physical (Layer 1)
 
@@ -323,7 +323,7 @@ D. Physical (Layer 1)
 ### 35. What is a potential risk of DNS caching?
 
 A. Slow connection speed
-**B. DNS poisoning (cache manipulation)**
+**B. DNS poisoning (cache manipulation)**✔️
 C. IP conflicts
 D. MAC address duplication
 
@@ -333,7 +333,7 @@ D. MAC address duplication
 
 A. An IPS only logs traffic, while a firewall blocks it.
 B. An IPS replaces a firewall in modern networks.
-**C. An IPS can actively block detected threats, while a firewall follows static rules.**
+**C. An IPS can actively block detected threats, while a firewall follows static rules.**✔️
 D. A firewall operates only at the application layer, while an IPS works at Layer 1.
 
 ---
@@ -341,7 +341,7 @@ D. A firewall operates only at the application layer, while an IPS works at Laye
 ### 37. How does NAT (Network Address Translation) enhance security?
 
 A. By encrypting all outgoing traffic
-**B. By hiding internal private IPs from the public internet**
+**B. By hiding internal private IPs from the public internet**✔️
 C. By blocking incoming UDP packets
 D. By managing user authentication
 
@@ -351,7 +351,7 @@ D. By managing user authentication
 
 A. 8.8.8.8
 B. 172.34.10.5
-**C. 192.168.1.20**
+**C. 192.168.1.20**✔️
 D. 203.0.113.10
 
 ---
@@ -360,7 +360,7 @@ D. 203.0.113.10
 
 A. Confidentiality → Accuracy, Integrity → Privacy, Availability → Encryption
 B. Confidentiality → Access, Integrity → Uptime, Availability → Control
-**C. Confidentiality → Keep data secret, Integrity → Keep data accurate, Availability → Keep data accessible**
+**C. Confidentiality → Keep data secret, Integrity → Keep data accurate, Availability → Keep data accessible**✔️
 D. Confidentiality → Access, Integrity → Backup, Availability → Privacy
 
 ---
@@ -370,7 +370,7 @@ D. Confidentiality → Access, Integrity → Backup, Availability → Privacy
 A. Contain the threat
 B. Eradicate the threat
 C. Recover the system
-**D. Detect the threat**
+**D. Detect the threat**✔️
 
 
 
