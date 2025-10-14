@@ -708,11 +708,3 @@ If you want to test yourself with **actual interview questions**, check out the 
 
 ⭐ **Found this useful?**  
 Star this repository to support **beginner-friendly cybersecurity education** and help more learners find it!
-
-
-
-
-
-
-
-
