@@ -278,99 +278,99 @@ D. Writing access policies
 
 ### 30. Why are ethics important for cybersecurity professionals?
 
-A. They work without supervision  
-B. They design company websites  
-**C. They have privileged access and must act responsibly and honestly**✔️  
-D. They manage employee payroll  
+A. They work without supervision    
+B. They design company websites    
+**C. They have privileged access and must act responsibly and honestly**✔️    
+D. They manage employee payroll      
 
 ---
-### 31. What does the “AAA” model in cybersecurity stand for?
+### 31. What does the “AAA” model in cybersecurity stand for?  
 
-A. Access, Authentication, and Accounting
-**B. Authentication, Authorization, and Accounting**✔️
-C. Authorization, Access, and Auditing
-D. Authentication, Access, and Analysis
+A. Access, Authentication, and Accounting  
+**B. Authentication, Authorization, and Accounting**✔️ 
+C. Authorization, Access, and Auditing  
+D. Authentication, Access, and Analysis  
 
 ---
 
 ### 32. Which statement best describes the main difference between hashing and encryption?
 
-A. Encryption is irreversible, while hashing can be reversed.
-**B. Hashing is one-way, while encryption is two-way using a key.**✔️
-C. Both are used to make data unreadable but serve identical purposes.
-D. Hashing uses a private key, while encryption uses a public key.
+A. Encryption is irreversible, while hashing can be reversed.  
+**B. Hashing is one-way, while encryption is two-way using a key.**✔️  
+C. Both are used to make data unreadable but serve identical purposes.  
+D. Hashing uses a private key, while encryption uses a public key.  
 
 ---
 
 ### 33. Why does DHCP use UDP instead of TCP?
 
-A. UDP is more secure than TCP.
-B. DHCP doesn’t require reliability.
-**C. TCP requires an IP to connect, but DHCP’s job is to assign one.**✔️
-D. UDP is faster and always encrypted.
+A. UDP is more secure than TCP.  
+B. DHCP doesn’t require reliability.  
+**C. TCP requires an IP to connect, but DHCP’s job is to assign one.**✔️  
+D. UDP is faster and always encrypted.  
 
 ---
 
 ### 34. If you can ping an IP address but can’t open a website, which OSI layer is most likely the problem?
 
-A. Data Link (Layer 2)
-**B. Application (Layer 7)**✔️
-C. Network (Layer 3)
-D. Physical (Layer 1)
+A. Data Link (Layer 2)  
+**B. Application (Layer 7)**✔️  
+C. Network (Layer 3)  
+D. Physical (Layer 1)  
 
 ---
 
 ### 35. What is a potential risk of DNS caching?
 
-A. Slow connection speed
-**B. DNS poisoning (cache manipulation)**✔️
-C. IP conflicts
-D. MAC address duplication
+A. Slow connection speed  
+**B. DNS poisoning (cache manipulation)**✔️  
+C. IP conflicts  
+D. MAC address duplication  
 
 ---
 
 ### 36. How does an IPS differ from a firewall?
 
-A. An IPS only logs traffic, while a firewall blocks it.
-B. An IPS replaces a firewall in modern networks.
-**C. An IPS can actively block detected threats, while a firewall follows static rules.**✔️
-D. A firewall operates only at the application layer, while an IPS works at Layer 1.
+A. An IPS only logs traffic, while a firewall blocks it.  
+B. An IPS replaces a firewall in modern networks.  
+**C. An IPS can actively block detected threats, while a firewall follows static rules.**✔️  
+D. A firewall operates only at the application layer, while an IPS works at Layer 1.  
 
 ---
 
 ### 37. How does NAT (Network Address Translation) enhance security?
 
-A. By encrypting all outgoing traffic
-**B. By hiding internal private IPs from the public internet**✔️
-C. By blocking incoming UDP packets
-D. By managing user authentication
+A. By encrypting all outgoing traffic  
+**B. By hiding internal private IPs from the public internet**✔️  
+C. By blocking incoming UDP packets  
+D. By managing user authentication  
 
 ---
 
 ### 38. Which of the following IP addresses is private?
 
-A. 8.8.8.8
-B. 172.34.10.5
-**C. 192.168.1.20**✔️
-D. 203.0.113.10
+A. 8.8.8.8  
+B. 172.34.10.5  
+**C. 192.168.1.20**✔️  
+D. 203.0.113.10  
 
 ---
 
 ### 39. Which option correctly matches the CIA Triad with its goals?
 
-A. Confidentiality → Accuracy, Integrity → Privacy, Availability → Encryption  
-B. Confidentiality → Access, Integrity → Uptime, Availability → Control  
-**C. Confidentiality → Keep data secret, Integrity → Keep data accurate, Availability → Keep data accessible**✔️  
-D. Confidentiality → Access, Integrity → Backup, Availability → Privacy  
+A. Confidentiality → Accuracy, Integrity → Privacy, Availability → Encryption    
+B. Confidentiality → Access, Integrity → Uptime, Availability → Control    
+**C. Confidentiality → Keep data secret, Integrity → Keep data accurate, Availability → Keep data accessible**✔️    
+D. Confidentiality → Access, Integrity → Backup, Availability → Privacy    
 
 ---
 
 ### 40. According to NIST, what is the first step in incident response?
 
-A. Contain the threat
-B. Eradicate the threat
-C. Recover the system
-**D. Detect the threat**✔️
+A. Contain the threat  
+B. Eradicate the threat  
+C. Recover the system  
+**D. Detect the threat**✔️  
 
 
 
