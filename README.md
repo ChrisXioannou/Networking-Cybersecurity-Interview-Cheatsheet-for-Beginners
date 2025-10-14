@@ -1,4 +1,4 @@
-# networking-cybersecurity-interview-cheatsheet-for beginers
+# Networking & Cybersecurity Interview Cheatsheet for Beginner
 
 ## Introduction
 
@@ -81,13 +81,13 @@ If you understand how a SIEM works, you can easily grasp the concept of an IPS a
 **IPS (Intrusion Prevention System):**  
 An IPS monitors network traffic for signs of malicious activity or policy violations.
 
-But Unlike a SIEM, it can take action! ( **block**, **reject**, or **quarantine** suspicious packets in real time). 
+But unlike a SIEM, it can take action! ( **block**, **reject**, or **quarantine** suspicious packets in real time). 
 
 In short:
 - **SIEM** — central brain analyzing logs from everywhere.  
 - **IPS** — guards the network in real time.  
 
-A **another common question** can simply be:
+**Another common question** can simply be:
 > “What's the difference between SIEM and IPS?”
 
 ## Responding to Detected Threats
@@ -173,7 +173,7 @@ A **typical question** can look like this:
 
 💡 Understanding how **Active Directory** and **Domain Controllers** work shows interviewers that you grasp one of the most essential parts of corporate network management.
 
-A## Actions and Permissions
+## Actions and Permissions
 
 Previously, we mentioned how **groups** help us manage many users at once.  
 By adding users to a group, they automatically **inherit the policies and restrictions** assigned to that group.
@@ -581,6 +581,54 @@ Even the most “cloud-native” systems depend on physical infrastructure under
 Hardware may be invisible — but it’s never gone.
 
 
+## Scenarios
+
+Scenarios help you move from **theory to understanding** — they show how all these concepts actually work together in real life, not just in isolated definitions or protocols.
+
+Let’s walk through a simple but powerful example.
+
+### **Scenario 1: Visiting google.com for the first time**
+
+1. **DNS Resolution:** Your device asks the DNS server for Google’s IP address to know where to connect.  
+2. **TCP Handshake:** Once the IP is known, a 3-way handshake (SYN → SYN-ACK → ACK) takes place to establish a reliable connection.  
+3. **TLS Encryption:** Because it’s HTTPS, a secure TLS handshake happens next to encrypt all communication.  
+4. **HTTP Request:** Your browser sends an HTTP request to ask for Google’s homepage.  
+5. **Server Processing:** Google’s server processes the request and gathers everything needed to display the page.  
+6. **Response Sent:** The server sends back HTML, CSS, images, and scripts.  
+7. **Rendering:** Your browser interprets and renders the data so you can see the actual page.  
+8. **Caching:** Certain files are cached locally for faster loading next time.
+
+
+
+### **Scenario 2: Connecting to a company VPN**
+
+1. **VPN Client Launches:** You open your VPN software — it knows which VPN server (IP) to contact.  
+2. **Authentication:** The system verifies your credentials — often using a username, password, and sometimes 2FA.  
+3. **RDP/Tunnel Setup:** A secure tunnel is created using **RAS (Remote Access Service)** or similar protocols.  
+4. **Encryption:** All your traffic is encrypted, ensuring your company data can’t be intercepted.  
+5. **DHCP Assignment:** Once connected, you receive a virtual IP address from the company’s DHCP server.  
+6. **Firewall & Policy Enforcement:** The company firewall applies its rules, allowing or denying certain internal services.  
+7. **Access Granted:** You can now safely access company files, internal websites, and remote desktops as if you were physically at the office.
+
+💡 **Every step here** uses a mix of what you’ve learned!!!
+
+Scenarios like these help you **see the flow** — from how a connection begins to how it’s secured, processed, and delivered.  
+
+That’s the mindset interviewers love: not memorizing, but understanding *how everything fits together.*
+
+## Final Notes: Theory That Completes the Picture
+
+These were the core fundamentals — the most effective concepts to truly understand the basics of networking and cybersecurity.
+They form the foundation that helps beginners not just memorize facts, but grasp how everything connects in the real world.
+
+If you want to test yourself with **actual interview questions**, check out the **“Questions” file** included in this repository.
+
+💡 Feel free to **suggest more topics** you think should be added — learning grows best when shared.
+
+⭐ **Found this useful?**  
+Star this repository to support **beginner-friendly cybersecurity education** and help more learners find it!
+
+
 ## Contents
 
 - [Logs](#core-networking)
@@ -591,101 +639,7 @@ Hardware may be invisible — but it’s never gone.
 
 
 
-Scenario:
-When I enter goolge.com for the first time
-1. DNS resolution, device is asking for googles ip adress in order to reach it
-2. With that ip now i can set tcp, a 3 way handshake between the device and google
-3. Since we are in https TLS takes place to secure and encrypt data
-4. http request now to see the page google got
-5. Server processing to load anything it needs
-6. Google will send back the nessesary things
-7. Rendering the data to display it
-8. Cashing what ever is allowed for faster time
-
-
-Questions:
-1) hashing VS encryption
-Hashing: It's only to prove integrity of a file, changes with every detail changed
-Encryption: only people with a key can read a message
-
-Got asked:
-udp-tcp
-type of attacks
-docker-linux commands
-ports
-vlan
-where to see logs
-
-Computers over a network:
-A device is different from a user. When you try to register a new device to the domain, you need to firstly create another user (the starting boot user) and then join the device to the domain. By doing that you can actually sign out and of course with the pre created user in domain controller-active directory you will be able to sign and also see the device as an object in active directory you can also add in a group of you linking. Pinging is a device related thing. You can always ping a device in the network but the user may not be accepted. 
 
 
 
-
-
-# Cybersecurity & Networking Interview Cheat Sheet
-[![Update](https://img.shields.io/badge/status-active-success.svg)]()
-[![Stars](https://img.shields.io/github/stars/yourname/interview-cheatsheet.svg?style=social)]()
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)]()
-
-
-
-<details><summary><b>TCP vs UDP (cheat table)</b></summary>
-
-| Feature | TCP | UDP |
-|---|---|---|
-| Connection | Yes | No |
-| Reliability | High | Best-effort |
-| Use cases | HTTP/S, SSH | DNS, VoIP |
-
-</details>
-
-> **Tip:** Memorize the 5-tuple (src/dst IP, src/dst port, protocol) for packet filters.
-
-
-# Cybersecurity & Networking Interview Cheat Sheet
-
-Short one-liner about who this is for (SOC, NetEng, SecEng, blue team) and how to use it in the last week before interviews.
-
-[![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![License](https://img.shields.io/badge/license-MIT-informational.svg)]()
-
-## Contents
-- [Core Networking](#core-networking)
-- [Security Fundamentals](#security-fundamentals)
-- [Protocols & Ports](#protocols--ports)
-- [Tools & Commands](#tools--commands)
-- [Linux/CLI Essentials](#linuxcli-essentials)
-- [Cloud & Zero Trust Basics](#cloud--zero-trust-basics)
-- [Common Interview Q&A](#common-interview-qa)
-- [Scenarios & Troubleshooting](#scenarios--troubleshooting)
-- [Study Plan (7 Days)](#study-plan-7-days)
-- [References](#references)
-
-## Core Networking
-- **OSI vs TCP/IP**: quick contrast table + when each is used.
-- **Routing & Switching**: ARP, STP, VLANs, NAT, subnetting mini-table.
-
-## Security Fundamentals
-- **CIA triad / AAA**, threat vs vuln vs risk, risk mgmt (likelihood × impact).
-- **AuthN vs AuthZ**, least privilege, segmentation/microseg.
-
-## Protocols & Ports
-| Service | Port | Notes |
-|---|---:|---|
-| DNS | 53/UDP,TCP | recursion, zone transfer |
-| HTTP/S | 80/443 | HTTP/2 basics, TLS handshake bullets |
-| SSH | 22 | key auth, agent fwd risks |
-
-## Tools & Commands
-### nmap
-
-
-QUIZ: https://quizlet.com/231268221/general-information-security-questions-flash-cards/
-SANS Cheat Sheets: https://www.sans.org/blog/the-ultimate-list-of-sans-cheat-sheets/
-Offensive Security (OSCP): https://411hall.github.io/OSCP-Preparation/
-https://medium.com/@falconspy/oscp-exam-attempt-1-1893df5a0a00
-VulnHub - LABS: https://www.vulnhub.com/
-
-⭐ Found this useful? Star it to support beginner-friendly cybersecurity education!
 
