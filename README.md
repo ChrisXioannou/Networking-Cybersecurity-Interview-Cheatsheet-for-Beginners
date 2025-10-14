@@ -245,8 +245,24 @@ A **key question** can be:
 
 ## Safety
 
-What if, even after setting permissions and groups, a user still manages to access something they shouldn’t?  
-That’s where **security layers** like authentication and encryption come in.
+### **The CIA Triad**
+
+The CIA Triad represents the three fundamental goals of cybersecurity:
+Confidentiality, Integrity, and Availability.
+Every security control, policy, or defense mechanism exists to protect at least one of these.
+
+Confidentiality → Keeping data secret from unauthorized access.
+Example: Encryption, access controls, and authentication ensure that only approved users can view sensitive information.
+
+Integrity → Making sure data remains accurate and unaltered.
+Example: Hashing and digital signatures detect unauthorized modifications — if the data changes, the hash changes too.
+
+Availability → Ensuring systems and data are accessible when needed.
+Example: Backups, redundant systems, and DDoS protection keep services running even during failures or attacks.
+
+💡 Think of it this way:
+If confidentiality, integrity, or availability is lost — security is broken.
+That’s why the CIA Triad is the foundation of every cybersecurity strategy.
 
 ### **Passwords and 2FA (Two-Factor Authentication)**
 
@@ -262,6 +278,9 @@ Even if someone steals your password, they still can’t log in without that sec
 💡 **Fact:** 2FA has prevented millions of unauthorized logins and remains one of the simplest yet most effective security measures — and interviewers love to ask about it.
 
 ### **Encryption**
+
+What if, even after setting permissions and groups, a user still manages to access something they shouldn’t?  
+That’s where **security layers** like authentication and encryption come in.
 
 Even if an attacker gains access to your data, **encryption** ensures they can’t actually read it.  
 Encryption converts plain, readable data (**plaintext**) into a scrambled format (**ciphertext**) using a **key**.
