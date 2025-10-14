@@ -2,6 +2,8 @@
 
 📘 Make sure to review the [Cheatsheet](./README.md)
 before answering — it’ll help you get the most out of these questions.
+
+Note: All correct answers are in bold.
 ---
 
 ### 1. UDP vs TCP
