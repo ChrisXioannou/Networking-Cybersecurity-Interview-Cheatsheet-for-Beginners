@@ -50,18 +50,15 @@ This is a core question every candidate should be able to answer confidently —
 The built-in tool for viewing logs is **Event Viewer**, you can open it by simply searching for it from the Windows taskbar.
 It lets you review **System**, **Security**, and **Application** logs in a structured way.
 
-
 💡 Tip: You can filter logs by time, level (error/warning/info), or event ID.
 
-
-### 🐧 Linux
+### Linux
 Linux systems log events to files under `/var/log/` or through **systemd’s journal**.
 
 The most common way to view logs on modern systems is with the **`journalctl`** command:
 
 # View recent logs
 journalctl -xe
-
 
 ### Log Management Concepts
 
@@ -86,14 +83,12 @@ An IPS monitors network traffic for signs of malicious activity or policy violat
 
 But Unlike a SIEM, it can take action! ( **block**, **reject**, or **quarantine** suspicious packets in real time). 
 
-
 In short:
 - **SIEM** — central brain analyzing logs from everywhere.  
 - **IPS** — guards the network in real time.  
 
 A **another common question** can simply be:
 > “What's the difference between SIEM and IPS?”
-
 
 ## Responding to Detected Threats
 
@@ -116,7 +111,6 @@ I highly suggest you learn this exactly as it is.
 5. **Recover** – Restore normal operations safely.  
 6. **Learn & Improve** – Review what happened and strengthen defenses for the future.
 
-
 ### Think of it as a story
 
 To make it easier to remember, think of it like trying to deal with a bug flying around your house:
@@ -134,7 +128,6 @@ Don’t get lost in every technical detail!
 
 💡 **Reminder:** Interviewers want to see that you understand the *bigger picture*.
 
-
 ## Domain Controller and Active Directory
 
 Imagine working in a company with hundreds of employees.  
@@ -145,10 +138,8 @@ That’s where **domains** and **Active Directory** come in.
 A **domain** is a networked environment where all users, computers, and resources (like printers or shared folders) are managed under a single set of rules and permissions.  
 It allows centralized control — meaning you can manage everything from one place instead of configuring each computer individually.
 
-
 ### How Do You Manage a Domain?
 The most common way to manage a domain in Windows environments is through **Active Directory (AD)**, which runs on a **Domain Controller (DC)**.
-
 
 ### What is Active Directory?
 **Active Directory** is a directory service developed by Microsoft.  
@@ -167,7 +158,6 @@ For example:
 - A “CEO” group might have access to confidential company files.  
 - An “Interns” group might only access shared folders and basic tools.
 
-
 ### Users and Devices in AD
 Each employee has both:
 - A **user account**, which represents their identity.  
@@ -183,7 +173,6 @@ A **typical question** can look like this:
 
 💡 Understanding how **Active Directory** and **Domain Controllers** work shows interviewers that you grasp one of the most essential parts of corporate network management.
 
-
 A## Actions and Permissions
 
 Previously, we mentioned how **groups** help us manage many users at once.  
@@ -191,8 +180,6 @@ By adding users to a group, they automatically **inherit the policies and restri
 
 Now, what kind of actions or restrictions can we actually apply to users?  
 Let’s understand this through one of the most essential Linux commands: **`chmod`**.
-
----
 
 ### Understanding `chmod`
 
@@ -403,6 +390,77 @@ It couldn’t — that’s the **Physical Layer**.
 💡 **Remember:** Don’t memorize the OSI model — **understand the logic behind it.**  
 Every layer depends on the one below it to function.  
 Learning to think in layers is one of the most powerful skills in networking and cybersecurity.
+
+
+## Fundamental Protocols
+
+There are a few **core protocols** that interviewers love to ask about.  
+not because they’re random, but because they are the **foundation** of how all networks function.  
+
+Let’s go a bit deeper into two of the most important ones: **TCP** and **DHCP**.
+Which will also help you truly understand how communication actually happens in a network.
+
+### **1. TCP (Transmission Control Protocol)**
+
+**TCP** is one of the most critical protocols on the internet.  
+It ensures **reliable, ordered, and error-checked delivery** of data between two devices.
+
+You can think of TCP as the “guaranteed delivery service” of networking.  
+Before any data is transferred, both sides must first agree to communicate — this is done using the famous **Three-Way Handshake**.
+
+### **How TCP Works – The Three-Way Handshake**
+
+When a client wants to connect to a server (for example, when your browser connects to `google.com`):
+
+1. **SYN (Synchronize)** – The client sends a message asking to start a connection.  
+2. **SYN-ACK (Synchronize-Acknowledge)** – The server replies saying “Got it, ready to connect.”  
+3. **ACK (Acknowledge)** – The client confirms, and the connection is officially established.
+
+At this point, data can flow in both directions **reliably**.
+
+When the communication is done, a similar process (called the **four-way termination**) gracefully closes the connection.
+
+💡 **Remember:** TCP sacrifices speed for **reliability**, ensuring every packet arrives in order and without errors.
+
+
+### **2. DHCP (Dynamic Host Configuration Protocol)**
+
+You may have noticed in the OSI model that we listed **DHCP** in the Application layer —  
+but DHCP deserves its own explanation because it works a bit differently than other protocols.
+
+When a new device connects to a network, it doesn’t have an IP address yet.  
+So how can it communicate with anything — especially before TCP even starts?
+
+That’s where **broadcasts** come in.
+
+---
+
+### **How DHCP Works**
+
+When you connect your laptop or phone to a Wi-Fi network:
+
+1. **DHCP Discover** – Your device sends a *broadcast message* saying,  
+   “Is there any DHCP server out there who can give me an IP?”  
+2. **DHCP Offer** – The DHCP server replies with an available IP address and network details.  
+3. **DHCP Request** – The client says “Yes, I’d like that one.”  
+4. **DHCP Acknowledgment (ACK)** – The server confirms, and the device can now use that IP.
+
+---
+
+### **Why DHCP Doesn’t Use TCP**
+
+TCP requires an IP address to create a connection in the first place —  
+but DHCP’s job **is to assign that IP**.  
+That’s why DHCP runs over **UDP** (ports **67** and **68**) instead of TCP.
+
+UDP doesn’t require a connection setup, making it **faster and simpler** for these short, essential exchanges.
+
+---
+
+💡 **Key takeaway:**  
+- **TCP** ensures data is delivered correctly once a connection exists.  
+- **DHCP** helps create that connection in the first place by giving devices their IP configuration.
+
 
 
 
