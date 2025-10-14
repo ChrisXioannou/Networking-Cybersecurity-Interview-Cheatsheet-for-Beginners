@@ -599,6 +599,69 @@ For example: **cables, network cards, and data center switches** that make the i
 Even the most “cloud-native” systems depend on physical infrastructure underneath.  
 Hardware may be invisible — but it’s never gone.
 
+## Attacks
+
+Securing systems is complex — because **attacks are always evolving**.  
+No matter how good the defenses are, new techniques appear constantly.  
+
+In interviews, you might get a question like:  
+> “Can you explain some common types of cyberattacks?”
+
+### **1. Phishing**
+Phishing is when an attacker tricks someone into revealing sensitive information —  
+like passwords or credit card details — by pretending to be a trusted source.
+
+Example:  
+You receive an email that *looks like* it’s from your bank, asking you to log in urgently.  
+The link leads to a fake website that steals your credentials.
+
+**How to protect:**  
+- Always verify the sender’s address.  
+- Don’t click on links from unknown emails.  
+- Enable 2FA — it neutralizes many phishing attempts.
+
+### **2. DDoS (Distributed Denial of Service)**
+A DDoS attack overwhelms a target server or network with massive traffic,  
+making it slow or completely unavailable to legitimate users.
+
+Imagine millions of fake “visitors” hitting a website at the same time — it crashes under pressure.
+
+**How to protect:**  
+- Use firewalls and DDoS mitigation services (like Cloudflare).  
+- Limit request rates and monitor traffic patterns.
+
+### **3. Brute-Force Attack**
+This attack tries **every possible combination** of passwords until the correct one is found.  
+It’s simple but effective when passwords are weak.
+
+**How to protect:**  
+- Enforce strong password policies.  
+- Implement account lockouts after several failed attempts.  
+- Use CAPTCHA and 2FA.
+
+### **4. SQL Injection**
+An attacker inserts malicious SQL code into a website’s input fields (like a login form)  
+to trick the database into revealing or modifying data.
+
+Example:  
+Typing `' OR 1=1 --` in a username field could bypass authentication if the input isn’t validated.
+
+**How to protect:**  
+- Use parameterized queries and input validation.  
+- Never trust user input!
+
+### **5. Man-in-the-Middle (MitM)**
+In a MitM attack, the attacker secretly intercepts communication between two parties.  
+They can eavesdrop, steal data, or even alter messages in transit.
+
+**How to protect:**  
+- Always use HTTPS (TLS encryption).  
+- Avoid public Wi-Fi for sensitive activities.  
+- Use VPNs for secure connections.
+
+💡 **Interview Tip:**  
+If asked about attacks, mention **both the concept and how to defend against it** —  
+it shows you think like a cybersecurity professional, not just a student.
 
 ## Scenarios
 
@@ -616,8 +679,6 @@ Let’s walk through a simple but powerful example.
 6. **Response Sent:** The server sends back HTML, CSS, images, and scripts.  
 7. **Rendering:** Your browser interprets and renders the data so you can see the actual page.  
 8. **Caching:** Certain files are cached locally for faster loading next time.
-
-
 
 ### **Scenario 2: Connecting to a company VPN**
 
