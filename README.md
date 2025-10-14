@@ -1,6 +1,6 @@
-# Networking & Cybersecurity Interview Cheatsheet for Beginner
-
 # Networking & Cybersecurity Interview Cheatsheet for Beginners
+
+**Keywords:** networking basics • cybersecurity fundamentals • interview prep • active directory • osi model • tcp udp dhcp • firewalls • ports • hashing • encryption • virtualization • beginner-friendly
 
 ### 📘 Quick Navigation
 [Introduction](#introduction) • 
