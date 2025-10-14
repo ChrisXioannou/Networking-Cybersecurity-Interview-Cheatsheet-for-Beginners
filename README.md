@@ -219,6 +219,50 @@ So in this example:
 A **key question** can be:
 > “Write a Linux command to only allow the creator to read, write, and execute on this file.”
 
+
+## Safety
+
+What if, even after setting permissions and groups, a user still manages to access something they shouldn’t?  
+That’s where **security layers** like authentication and encryption come in.
+
+### **Passwords and 2FA (Two-Factor Authentication)**
+
+Passwords are the first layer of protection, but they’re not always enough — they can be guessed, stolen, or leaked.  
+That’s why modern systems use **2FA (Two-Factor Authentication)**.
+
+With 2FA, users must provide **two forms of verification**:
+1. **Something they know** — like a password.  
+2. **Something they have** — like a phone, app code, or security key.
+
+Even if someone steals your password, they still can’t log in without that second factor.
+
+💡 **Fact: 2FA has prevented millions of unauthorized logins and remains one of the simplest yet most effective security measures — and interviewers love to ask about it.
+
+### **Encryption**
+
+Even if an attacker gains access to your data, **encryption** ensures they can’t actually read it.  
+Encryption converts plain, readable data (**plaintext**) into a scrambled format (**ciphertext**) using a **key**.
+
+Only someone with the correct key can decrypt it and view the original information.
+
+In short:
+> **Encryption protects data in case it falls into the wrong hands.**
+
+### **Hashing**
+
+While encryption can be reversed (using a key), hashing cannot.
+Hashing converts data into a unique, fixed-length value called a hash — like a digital fingerprint of the file or text.
+
+Even a tiny change in the original data (like adding a single space or letter) completely changes the resulting hash.
+That’s why hashing is often used to verify integrity and ensure that no one has tampered with a file or message.
+
+For example:
+
+When verifying file integrity (like a downloaded update or backup), comparing its hash to the original confirms that the file hasn’t been modified or corrupted.
+
+💡 Think of it this way:
+If the hash changes, the file has changed — even if the difference is invisible to the eye.
+
 ## Networks
 
 We’ve mentioned networking several times already, but what exactly **is** networking — and how does it work?
