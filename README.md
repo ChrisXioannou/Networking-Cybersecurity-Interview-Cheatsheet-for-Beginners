@@ -219,7 +219,6 @@ So in this example:
 A **key question** can be:
 > “Write a Linux command to only allow the creator to read, write, and execute on this file.”
 
-
 ## Networks
 
 We’ve mentioned networking several times already, but what exactly **is** networking — and how does it work?
@@ -248,6 +247,14 @@ Imagine a game of football — the game itself is networking, but without the ru
 - **MAC (Media Access Control) Address**  
   A MAC address is a hardware identifier embedded in a device’s network interface card (NIC).  
   While IP addresses can change, a MAC address is permanent and unique to each device.
+
+- **Subnet Mask**  
+  The subnet mask determines which part of the IP address refers to the **network** and which part refers to the **device (host)**.  
+  For example, in `192.168.1.10` with a mask of `255.255.255.0`, the `192.168.1` identifies the network, and `.10` is the specific host.
+
+- **Default Gateway**  
+  The default gateway is the device (usually your router) that connects your local network to other networks or the internet.  
+  When your computer wants to reach an IP outside its own network, it sends the data to the gateway, which forwards it to the destination.
 
 #### **DNS (Domain Name System)**
 DNS translates human-readable domain names (like `google.com`) into IP addresses (like `142.250.190.78`).  
@@ -354,6 +361,29 @@ That’s where **ports** come in!
 | **8080** | HTTP (alternate) | Alternative web traffic port often used by proxy servers |
 
 💡 Knowing these ports not only helps in interviews but also when analyzing traffic, troubleshooting connectivity, or identifying potential attacks during a network scan.
+
+## Firewall
+
+At home, your **router** usually handles multiple services — it acts as your **NAT**, **DHCP**, and **DNS** provider all at once.  
+But in a company environment, a **dedicated firewall** is often set up to take over these responsibilities and apply stricter control.  
+It becomes the central point for managing and securing all incoming and outgoing network traffic.
+
+A **firewall** controls the flow of network traffic based on predefined rules.  
+It decides which connections are **allowed**, **blocked**, or **monitored**, protecting your network from unauthorized or malicious access.
+
+In simple terms:  
+> A firewall adds **policies** to all network connections — deciding what gets in and what stays out.
+
+Much like an **IPS (Intrusion Prevention System)**, it can:
+- Block suspicious or unauthorized traffic  
+- Allow only specific ports (like 80 and 443 for web browsing)  
+- Deny inbound requests while allowing outbound ones  
+- Log all traffic attempts for later analysis  
+
+Firewalls can exist as:
+- **Hardware devices** (built into routers or dedicated network appliances)
+- **Software firewalls** (running on your operating system)
+- **Cloud-based firewalls** (used in enterprise and modern infrastructures)
 
 ## OSI Model
 
@@ -476,7 +506,35 @@ UDP doesn’t require a connection setup, making it **faster and simpler** for t
 - **TCP** ensures data is delivered correctly once a connection exists.  
 - **DHCP** helps create that connection in the first place by giving devices their IP configuration.
 
+## Hardware
 
+Even though we are moving into a **virtualized** and **cloud-based** era, hardware still forms the backbone of every network.  
+All those “cloud” services we rely on still live on **physical servers** somewhere in the world — the cloud is just **someone else’s data center**.
+
+Understanding the key pieces of networking hardware helps you visualize how everything you’ve learned — IPs, ports, firewalls, and protocols — works in practice.
+
+### **Essential Networking Hardware**
+
+| Device | Purpose | OSI Layer |
+|---------|----------|------------|
+| **Router** | Connects multiple networks together (e.g., your home network to the internet). Uses IP addresses to route packets. | Layer 3 – Network |
+| **Switch** | Connects devices within a local network (LAN) and forwards data using MAC addresses. | Layer 2 – Data Link |
+| **Hub** | Basic device that broadcasts data to all ports. Rarely used today. | Layer 1 – Physical |
+| **Access Point (AP)** | Provides wireless connectivity (Wi-Fi) within a local area network. | Layer 2 – Data Link |
+| **Server** | Hosts applications, websites, databases, and services for clients. | Layer 7 – Application |
+| **Modem** | Converts digital signals from your router to analog signals for your ISP (and vice versa). | Layer 1 – Physical |
+
+### **Virtualization Note**
+
+Today, many of these hardware functions — routers, firewalls, switches, and even servers — are **virtualized**.  
+That means they exist as **software-based systems** (like virtual machines or containers) instead of physical devices.  
+
+However, no matter how advanced virtualization becomes, **the data still needs to pass through physical hardware**!
+For example: **cables, network cards, and data center switches** that make the internet possible.
+
+💡 **Remember:**  
+Even the most “cloud-native” systems depend on physical infrastructure underneath.  
+Hardware may be invisible — but it’s never gone.
 
 
 ## Contents
@@ -489,9 +547,8 @@ UDP doesn’t require a connection setup, making it **faster and simpler** for t
 
 
 
-MY NOTES: 
 
-   
+
 General networking:
 
 1. The DNC DHCP and NAT services are provided by my rooter
