@@ -20,6 +20,9 @@
 [Scenarios](#scenarios) • 
 [Final Notes](#final-notes-theory-that-completes-the-picture)
 
+
+[Practice Questions](./questions.md)
+
 ## Introduction
 
 **You don’t need to master everything — you just need to understand the fundamentals.**  
