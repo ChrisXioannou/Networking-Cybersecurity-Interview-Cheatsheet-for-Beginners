@@ -7,12 +7,12 @@ Note: All correct answers are in bold.
 ---
 
 ### 1. UDP vs TCP
-Which of the following statements best describes the difference between UDP and TCP?
+Which of the following statements best describes the difference between UDP and TCP? 
 
 A. TCP is faster than UDP because it skips acknowledgments  
 B. UDP guarantees delivery and order of packets  
-**C. TCP ensures reliable delivery, while UDP prioritizes speed over reliability**
-D. UDP uses a three-way handshake before sending data  
+C. **TCP ensures reliable delivery, while UDP prioritizes speed over reliability**  
+D. UDP uses a three-way handshake before sending data   
 
 ---
 
