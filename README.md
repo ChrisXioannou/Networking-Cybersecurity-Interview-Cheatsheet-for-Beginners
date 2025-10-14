@@ -21,7 +21,7 @@
 [Final Notes](#final-notes-theory-that-completes-the-picture)
 
 
-[Practice Questions](./questions.md)
+After reading, test your knowledge here: [Practice Questions](./questions.md)
 
 ## Introduction
 
