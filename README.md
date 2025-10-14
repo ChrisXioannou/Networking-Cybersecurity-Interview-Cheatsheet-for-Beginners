@@ -735,3 +735,5 @@ If you want to test yourself with **actual interview questions**, check out the 
 
 ⭐ **Found this useful?**  
 Star this repository to support **beginner-friendly cybersecurity education** and help more learners find it!
+
+Note: Reading this guide won’t cover every possible interview question — some topics require extra research and curiosity on your own.
