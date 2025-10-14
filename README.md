@@ -303,7 +303,6 @@ This perfectly illustrates the difference:
 - **TCP:** Reliable, connection-oriented, confirms delivery.  
 - **UDP:** Fast, connectionless, doesn’t confirm anything.
 
-
 ### Protocol Summary Table
 
 💡You can answer almost any multiple-choice question about protocols just by looking at this summary table.
@@ -449,7 +448,6 @@ When the communication is done, a similar process (called the **four-way termina
 
 You may have noticed in the OSI model that there is no **DHCP**
 DHCP deserves its own explanation because it works a bit differently than other protocols.
-HERE LEFT!!
 
 When a new device connects to a network, it doesn’t have an IP address yet.  
 So how can it communicate with anything — especially before TCP even starts?
