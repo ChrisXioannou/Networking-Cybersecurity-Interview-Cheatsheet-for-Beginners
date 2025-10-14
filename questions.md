@@ -1,5 +1,7 @@
 # Networking & Cybersecurity Multiple-Choice Questions
 
+📘 Make sure to review the [Cheatsheet](./README.md)
+before answering — it’ll help you get the most out of these questions.
 ---
 
 ### 1. UDP vs TCP
