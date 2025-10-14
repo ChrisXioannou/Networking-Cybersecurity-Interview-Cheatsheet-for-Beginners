@@ -464,17 +464,13 @@ When you connect your laptop or phone to a Wi-Fi network:
 3. **DHCP Request** – The client says “Yes, I’d like that one.”  
 4. **DHCP Acknowledgment (ACK)** – The server confirms, and the device can now use that IP.
 
----
-
 ### **Why DHCP Doesn’t Use TCP**
 
-TCP requires an IP address to create a connection in the first place —  
-but DHCP’s job **is to assign that IP**.  
-That’s why DHCP runs over **UDP** (ports **67** and **68**) instead of TCP.
+TCP requires an IP address to create a connection in the first place.  
+But DHCP’s job **is to assign that IP**.  
+That’s why DHCP runs over **UDP** instead of TCP.
 
 UDP doesn’t require a connection setup, making it **faster and simpler** for these short, essential exchanges.
-
----
 
 💡 **Key takeaway:**  
 - **TCP** ensures data is delivered correctly once a connection exists.  
