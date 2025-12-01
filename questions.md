@@ -372,5 +372,3 @@ B. Eradicate the threat
 C. Recover the system  
 **D. Detect the threat**✔️  
 
-
-
