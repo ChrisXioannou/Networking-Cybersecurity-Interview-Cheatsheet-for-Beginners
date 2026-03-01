@@ -25,7 +25,7 @@ After reading, test your knowledge here: [Practice Questions](./questions.md)
 
 ## Introduction
 
-![Network Diagram](https://github.com/ChrisXioannou/HomeLabDirectory/blob/main/assets/diagam.png)
+![Diagram1]([https://github.com/ChrisXioannou/HomeLabDirectory/blob/main/assets/diagam.png](https://github.com/ChrisXioannou/Networking-Cybersecurity-Interview-Cheatsheet-for-Beginners/blob/main/assets/diagram1.png))
 
 **You don’t need to master everything — you just need to understand the fundamentals.**  
 That’s the real key to interviews in both networking and cybersecurity — two broad, fast-evolving fields.
