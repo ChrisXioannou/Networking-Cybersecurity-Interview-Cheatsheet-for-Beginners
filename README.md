@@ -267,7 +267,7 @@ Example: Hashing and digital signatures detect unauthorized modifications — if
 **Availability** → Ensuring systems and data are accessible when needed.
 Example: Backups, redundant systems, and DDoS protection keep services running even during failures or attacks.
 
-![Diagram2](https://github.com/ChrisXioannou/Networking-Cybersecurity-Interview-Cheatsheet-for-Beginners/blob/main/assets/diagram2.png)
+![Diagram2](https://github.com/ChrisXioannou/Networking-Cybersecurity-Interview-Cheatsheet-for-Beginners/blob/main/assets/diagram3.png)
 
 💡 Think of it this way:
 If confidentiality, integrity, or availability is lost — security is broken.
@@ -501,7 +501,7 @@ So, the OSI model gives structure to your troubleshooting process — layer by l
 | **1** | **Physical** | Deals with actual hardware transmission — cables, signals, and bits. | Ethernet cables, Fiber, Hubs |
 
 
-![Diagram3](https://github.com/ChrisXioannou/Networking-Cybersecurity-Interview-Cheatsheet-for-Beginners/blob/main/assets/diagram3.png)
+![Diagram3](https://github.com/ChrisXioannou/Networking-Cybersecurity-Interview-Cheatsheet-for-Beginners/blob/main/assets/diagram2.png)
 
 
 ### Why It Matters
