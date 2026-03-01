@@ -27,8 +27,6 @@ After reading, test your knowledge here: [Practice Questions](./questions.md)
 
 ![Diagram1](https://github.com/ChrisXioannou/Networking-Cybersecurity-Interview-Cheatsheet-for-Beginners/blob/main/assets/diagram1.png)
 
-![Network Diagram](https://github.com/ChrisXioannou/HomeLabDirectory/blob/main/assets/diagam.png)
-
 **You don’t need to master everything — you just need to understand the fundamentals.**  
 That’s the real key to interviews in both networking and cybersecurity — two broad, fast-evolving fields.
 
@@ -269,6 +267,8 @@ Example: Hashing and digital signatures detect unauthorized modifications — if
 **Availability** → Ensuring systems and data are accessible when needed.
 Example: Backups, redundant systems, and DDoS protection keep services running even during failures or attacks.
 
+![Diagram2](https://github.com/ChrisXioannou/Networking-Cybersecurity-Interview-Cheatsheet-for-Beginners/blob/main/assets/diagram2.png)
+
 💡 Think of it this way:
 If confidentiality, integrity, or availability is lost — security is broken.
 That’s why the CIA Triad is the foundation of every cybersecurity strategy.
@@ -499,6 +499,10 @@ So, the OSI model gives structure to your troubleshooting process — layer by l
 | **3** | **Network** | Handles logical addressing and routing of packets. | IP, ICMP, ARP |
 | **2** | **Data Link** | Responsible for node-to-node data transfer and MAC addressing. | Ethernet, PPP, VLANs |
 | **1** | **Physical** | Deals with actual hardware transmission — cables, signals, and bits. | Ethernet cables, Fiber, Hubs |
+
+
+![Diagram3](https://github.com/ChrisXioannou/Networking-Cybersecurity-Interview-Cheatsheet-for-Beginners/blob/main/assets/diagram3.png)
+
 
 ### Why It Matters
 
